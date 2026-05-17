@@ -9,7 +9,7 @@
     <div v-if="node" class="node-content">
       <!-- Node title -->
       <h1 class="node-title">{{ node.title }}</h1>
-      <div v-if="node.difficulty === 'deep'" class="deep-badge">⭐ Глубокое покрытие</div>
+      <div v-if="node.difficulty === 'deep'" class="deep-badge">⭐ Углублённое изучение</div>
 
       <!-- Recap (if came from chain) -->
       <Bio6BridgeRecap v-if="recap" type="recap" :text="recap.text" />

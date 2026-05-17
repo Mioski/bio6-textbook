@@ -29,7 +29,7 @@
         <div class="node-middle">
           <div class="node-title">{{ node.title }}</div>
           <div class="node-meta">
-            <span v-if="node.difficulty === 'deep'" class="badge-deep">глубокое</span>
+            <span v-if="node.difficulty === 'deep'" class="badge-deep">углублённое</span>
           </div>
           <div v-if="getProgress(node.id) > 0" class="node-progress-bar">
             <div class="node-progress-fill" :style="{ width: getProgress(node.id) + '%' }"></div>

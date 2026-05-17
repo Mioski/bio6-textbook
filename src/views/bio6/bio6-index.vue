@@ -13,7 +13,7 @@
       </div>
       <div class="stat-chip">
         <span class="stat-num">4</span>
-        <span class="stat-label">глубоких</span>
+        <span class="stat-label">углублённых</span>
       </div>
       <div class="stat-chip">
         <span class="stat-num">{{ completedCount }}</span>
