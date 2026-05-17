@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 300" font-family="system-ui,sans-serif">
+  <rect width="360" height="300" fill="#0d1117"/>
+  <text x="180" y="18" text-anchor="middle" font-size="12" fill="#e8c891" font-weight="600">Ткани растений</text>
+
+  <!-- Grid of tissue types: 2x3 -->
+  <!-- 1. Образовательная (Meristematic) -->
+  <rect x="10" y="30" width="105" height="90" rx="6" fill="#0f1a0f" stroke="#8cc882" stroke-width="1.5"/>
+  <text x="62" y="46" text-anchor="middle" font-size="9" fill="#8cc882" font-weight="600">Образовательная</text>
+  <!-- small cells grid -->
+  <g fill="#1a3a1a" stroke="#8cc882" stroke-width="0.8">
+    <rect x="22" y="52" width="14" height="14" rx="1"/><rect x="38" y="52" width="14" height="14" rx="1"/>
+    <rect x="54" y="52" width="14" height="14" rx="1"/><rect x="70" y="52" width="14" height="14" rx="1"/>
+    <rect x="22" y="68" width="14" height="14" rx="1"/><rect x="38" y="68" width="14" height="14" rx="1"/>
+    <rect x="54" y="68" width="14" height="14" rx="1"/><rect x="70" y="68" width="14" height="14" rx="1"/>
+    <rect x="22" y="84" width="14" height="14" rx="1"/><rect x="38" y="84" width="14" height="14" rx="1"/>
+    <rect x="54" y="84" width="14" height="14" rx="1"/><rect x="70" y="84" width="14" height="14" rx="1"/>
+  </g>
+  <text x="62" y="113" text-anchor="middle" font-size="8" fill="#8b949e">кончик корня,</text>
+  <text x="62" y="122" text-anchor="middle" font-size="8" fill="#8b949e">камбий</text>
+
+  <!-- 2. Покровная (Dermal) -->
+  <rect x="127" y="30" width="105" height="90" rx="6" fill="#1a1208" stroke="#e8c891" stroke-width="1.5"/>
+  <text x="179" y="46" text-anchor="middle" font-size="9" fill="#e8c891" font-weight="600">Покровная</text>
+  <!-- flat cells row -->
+  <g fill="#2a1808" stroke="#e8c891" stroke-width="0.8">
+    <rect x="138" y="52" width="84" height="10" rx="1"/>
+    <rect x="138" y="64" width="84" height="8" rx="1"/>
+  </g>
+  <!-- stomata -->
+  <ellipse cx="168" cy="82" rx="8" ry="5" fill="#0d1117" stroke="#8cc882" stroke-width="1"/>
+  <text x="168" y="85" text-anchor="middle" font-size="6" fill="#8cc882">уст.</text>
+  <ellipse cx="200" cy="82" rx="8" ry="5" fill="#0d1117" stroke="#8cc882" stroke-width="1"/>
+  <text x="200" y="85" text-anchor="middle" font-size="6" fill="#8cc882">уст.</text>
+  <text x="179" y="113" text-anchor="middle" font-size="8" fill="#8b949e">эпидермис,</text>
+  <text x="179" y="122" text-anchor="middle" font-size="8" fill="#8b949e">пробка</text>
+
+  <!-- 3. Механическая (Mechanical) -->
+  <rect x="244" y="30" width="105" height="90" rx="6" fill="#1a1a08" stroke="#a8c5d8" stroke-width="1.5"/>
+  <text x="296" y="46" text-anchor="middle" font-size="9" fill="#a8c5d8" font-weight="600">Механическая</text>
+  <!-- elongated thick-walled cells -->
+  <g fill="#1a1a2a" stroke="#a8c5d8" stroke-width="1">
+    <rect x="256" y="52" width="10" height="60" rx="2"/>
+    <rect x="270" y="52" width="10" height="60" rx="2"/>
+    <rect x="284" y="52" width="10" height="60" rx="2"/>
+    <rect x="298" y="52" width="10" height="60" rx="2"/>
+    <rect x="312" y="52" width="10" height="60" rx="2"/>
+    <rect x="326" y="52" width="10" height="60" rx="2"/>
+  </g>
+  <text x="296" y="122" text-anchor="middle" font-size="8" fill="#8b949e">волокна, склереиды</text>
+
+  <!-- 4. Проводящая (Vascular) -->
+  <rect x="10" y="142" width="105" height="90" rx="6" fill="#1a0f08" stroke="#e8a070" stroke-width="1.5"/>
+  <text x="62" y="158" text-anchor="middle" font-size="9" fill="#e8a070" font-weight="600">Проводящая</text>
+  <!-- xylem tubes -->
+  <rect x="22" y="164" width="16" height="55" rx="3" fill="#2a1808" stroke="#e8a070" stroke-width="1"/>
+  <text x="30" y="228" text-anchor="middle" font-size="7" fill="#e8a070">кс.</text>
+  <!-- phloem tubes -->
+  <rect x="45" y="164" width="16" height="55" rx="3" fill="#0a1a2a" stroke="#a8c5d8" stroke-width="1"/>
+  <text x="53" y="228" text-anchor="middle" font-size="7" fill="#a8c5d8">фл.</text>
+  <text x="62" y="236" text-anchor="middle" font-size="8" fill="#8b949e">сосуды, ситовидные</text>
+  <text x="62" y="245" text-anchor="middle" font-size="8" fill="#8b949e">трубки</text>
+
+  <!-- 5. Основная (Ground) -->
+  <rect x="127" y="142" width="105" height="90" rx="6" fill="#0a1a0a" stroke="#8cc882" stroke-width="1.5"/>
+  <text x="179" y="158" text-anchor="middle" font-size="9" fill="#8cc882" font-weight="600">Основная</text>
+  <!-- large cells with chloroplasts -->
+  <circle cx="152" cy="185" r="14" fill="#0f2a0f" stroke="#8cc882" stroke-width="1"/>
+  <circle cx="148" cy="182" r="3" fill="#1a4a1a"/>
+  <circle cx="155" cy="188" r="3" fill="#1a4a1a"/>
+  <circle cx="200" cy="185" r="14" fill="#0f2a0f" stroke="#8cc882" stroke-width="1"/>
+  <circle cx="196" cy="182" r="3" fill="#1a4a1a"/>
+  <circle cx="203" cy="188" r="3" fill="#1a4a1a"/>
+  <text x="179" y="218" text-anchor="middle" font-size="8" fill="#8b949e">паренхима,</text>
+  <text x="179" y="228" text-anchor="middle" font-size="8" fill="#8b949e">хлоропласты</text>
+
+  <!-- 6. Выделительная (Secretory) -->
+  <rect x="244" y="142" width="105" height="90" rx="6" fill="#1a0a1a" stroke="#a8c5d8" stroke-width="1.5"/>
+  <text x="296" y="158" text-anchor="middle" font-size="9" fill="#a8c5d8" font-weight="600">Выделительная</text>
+  <!-- secretory cell with droplets -->
+  <ellipse cx="296" cy="190" rx="22" ry="20" fill="#1a1a2a" stroke="#a8c5d8" stroke-width="1.5"/>
+  <circle cx="290" cy="188" r="4" fill="#2a0a2a" opacity="0.8"/>
+  <circle cx="302" cy="192" r="3" fill="#2a0a2a" opacity="0.8"/>
+  <circle cx="294" cy="196" r="3" fill="#2a0a2a" opacity="0.8"/>
+  <text x="296" y="222" text-anchor="middle" font-size="8" fill="#8b949e">смоляные ходы,</text>
+  <text x="296" y="232" text-anchor="middle" font-size="8" fill="#8b949e">нектарники</text>
+
+  <text x="180" y="280" text-anchor="middle" font-size="11" fill="#8b949e">Виды тканей растений</text>
+</svg>

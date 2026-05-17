@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 300" font-family="system-ui,sans-serif">
+  <rect width="360" height="300" fill="#0d1117"/>
+
+  <!-- Flower stem -->
+  <rect x="172" y="230" width="16" height="50" rx="4" fill="#1a3a1a" stroke="#8cc882" stroke-width="1"/>
+  <!-- Receptacle -->
+  <ellipse cx="180" cy="228" rx="22" ry="10" fill="#1a2a0a" stroke="#8b949e" stroke-width="1"/>
+
+  <!-- Sepals (чашелистики) -->
+  <g fill="#1a3a0a" stroke="#8cc882" stroke-width="1.5">
+    <ellipse cx="155" cy="215" rx="12" ry="24" transform="rotate(-30,155,215)"/>
+    <ellipse cx="180" cy="208" rx="12" ry="24" transform="rotate(0,180,208)"/>
+    <ellipse cx="205" cy="215" rx="12" ry="24" transform="rotate(30,205,215)"/>
+  </g>
+
+  <!-- Petals (лепестки) -->
+  <g fill="#3a1a2a" stroke="#e8a070" stroke-width="1.5" opacity="0.9">
+    <ellipse cx="140" cy="175" rx="18" ry="40" transform="rotate(-35,140,175)"/>
+    <ellipse cx="162" cy="155" rx="18" ry="40" transform="rotate(-12,162,155)"/>
+    <ellipse cx="198" cy="155" rx="18" ry="40" transform="rotate(12,198,155)"/>
+    <ellipse cx="220" cy="175" rx="18" ry="40" transform="rotate(35,220,175)"/>
+  </g>
+  <!-- Back petals -->
+  <g fill="#2a1220" stroke="#e8a070" stroke-width="1" opacity="0.6">
+    <ellipse cx="152" cy="160" rx="15" ry="36" transform="rotate(-22,152,160)"/>
+    <ellipse cx="208" cy="160" rx="15" ry="36" transform="rotate(22,208,160)"/>
+  </g>
+
+  <!-- Stamens (тычинки) -->
+  <g stroke="#e8c891" stroke-width="1.5">
+    <line x1="162" y1="195" x2="150" y2="155"/>
+    <line x1="170" y1="193" x2="163" y2="150"/>
+    <line x1="180" y1="192" x2="180" y2="148"/>
+    <line x1="190" y1="193" x2="197" y2="150"/>
+    <line x1="198" y1="195" x2="210" y2="155"/>
+  </g>
+  <!-- Anthers (пыльники) -->
+  <g fill="#3d3520" stroke="#e8c891" stroke-width="1">
+    <ellipse cx="150" cy="152" rx="5" ry="3" transform="rotate(-30,150,152)"/>
+    <ellipse cx="163" cy="147" rx="5" ry="3" transform="rotate(-10,163,147)"/>
+    <ellipse cx="180" cy="145" rx="5" ry="3"/>
+    <ellipse cx="197" cy="147" rx="5" ry="3" transform="rotate(10,197,147)"/>
+    <ellipse cx="210" cy="152" rx="5" ry="3" transform="rotate(30,210,152)"/>
+  </g>
+  <!-- Pollen dots -->
+  <g fill="#e8c891" opacity="0.5">
+    <circle cx="145" cy="148" r="2"/> <circle cx="149" cy="145" r="2"/>
+    <circle cx="176" cy="141" r="2"/> <circle cx="184" cy="141" r="2"/>
+    <circle cx="213" cy="148" r="2"/> <circle cx="217" cy="145" r="2"/>
+  </g>
+
+  <!-- Pistil (пестик) -->
+  <!-- Stigma -->
+  <ellipse cx="180" cy="158" rx="10" ry="6" fill="#2a1a0a" stroke="#e8c891" stroke-width="2"/>
+  <text x="180" y="162" text-anchor="middle" font-size="7" fill="#e8c891">рыльце</text>
+  <!-- Style -->
+  <rect x="177" y="163" width="6" height="20" rx="2" fill="#2a1a0a" stroke="#e8c891" stroke-width="1.5"/>
+  <!-- Ovary -->
+  <ellipse cx="180" cy="192" rx="14" ry="10" fill="#1a1208" stroke="#e8c891" stroke-width="2"/>
+  <text x="180" y="196" text-anchor="middle" font-size="7" fill="#e8c891">завязь</text>
+  <!-- Ovule dot inside -->
+  <circle cx="180" cy="192" r="3" fill="#3d3520"/>
+
+  <!-- Labels -->
+  <line x1="230" y1="148" x2="285" y2="130" stroke="#8b949e" stroke-width="1"/>
+  <text x="287" y="128" font-size="10" fill="#e8c891">пыльник</text>
+
+  <line x1="230" y1="170" x2="285" y2="165" stroke="#8b949e" stroke-width="1"/>
+  <text x="287" y="163" font-size="10" fill="#e8c891">тычиночная</text>
+  <text x="287" y="175" font-size="10" fill="#e8c891">нить</text>
+
+  <line x1="194" y1="160" x2="285" y2="195" stroke="#8b949e" stroke-width="1"/>
+  <text x="287" y="193" font-size="10" fill="#a8c5d8">пестик</text>
+  <text x="287" y="205" font-size="8" fill="#8b949e">(рыльце+стол.+</text>
+  <text x="287" y="216" font-size="8" fill="#8b949e">завязь)</text>
+
+  <line x1="130" y1="183" x2="75" y2="175" stroke="#8b949e" stroke-width="1"/>
+  <text x="72" y="173" text-anchor="end" font-size="10" fill="#e8a070">лепесток</text>
+
+  <line x1="145" y1="215" x2="75" y2="220" stroke="#8b949e" stroke-width="1"/>
+  <text x="72" y="218" text-anchor="end" font-size="10" fill="#8cc882">чашелистик</text>
+
+  <line x1="165" y1="230" x2="75" y2="255" stroke="#8b949e" stroke-width="1"/>
+  <text x="72" y="253" text-anchor="end" font-size="10" fill="#8b949e">цветоложе</text>
+
+  <text x="180" y="292" text-anchor="middle" font-size="11" fill="#8b949e">Строение цветка</text>
+</svg>

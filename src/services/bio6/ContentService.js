@@ -7,6 +7,7 @@ import matchTasksData from '@data/match-tasks.json'
 import cheatsheetsData from '@data/cheatsheets.json'
 import didYouKnowData from '@data/did-you-know.json'
 import simData from '@data/sim-data.json'
+import readingTasksData from '@data/reading-tasks.json'
 
 const blocks = [
   { id: 'block1', title: 'Растительный организм', subtitle: 'Клетки, ткани, органы', emoji: '🔬' },
@@ -77,6 +78,11 @@ export function getMatchTasks(nodeId) {
   return entry ? entry.tasks : []
 }
 
+export function getReadingTasks(nodeId) {
+  const entry = readingTasksData.find(t => t.nodeId === nodeId)
+  return entry ? entry.tasks : []
+}
+
 export function getCheatsheet(nodeId) {
   const entry = cheatsheetsData.find(c => c.nodeId === nodeId)
   return entry ? entry.sections : null
@@ -98,20 +104,40 @@ export function isDeepTopic(nodeId) {
 }
 
 const illustrations = {
-  topic_12046_plant_cell:    { src: './images/bio6/plant-cell.svg',          caption: 'Схема строения растительной клетки' },
-  topic_12051_root_zones:    { src: './images/bio6/root-zones.svg',          caption: 'Зоны корня (от кончика вверх)' },
-  topic_12056_photosynthesis:{ src: './images/bio6/photosynthesis.svg',      caption: 'Фотосинтез: исходные вещества и продукты' },
-  topic_12061_stem_wood:     { src: './images/bio6/stem-cross-section.svg',  caption: 'Поперечный срез деревянистого стебля' },
-  topic_12055_leaf_structure:{ src: './images/bio6/leaf-cross-section.svg',  caption: 'Поперечный срез листа' },
-  topic_12084_leaf_lab:      { src: './images/bio6/leaf-cross-section.svg',  caption: 'Строение листа на поперечном срезе' },
-  topic_12070_flowers_pollination: { src: './images/bio6/flower-structure.svg', caption: 'Строение цветка' },
-  topic_12086_flower_lab:    { src: './images/bio6/flower-structure.svg',    caption: 'Части цветка' },
-  topic_12062_vascular_root: { src: './images/bio6/transport.svg',           caption: 'Транспорт веществ: ксилема и флоэма' },
-  topic_12063_transpiration: { src: './images/bio6/transport.svg',           caption: 'Восходящий и нисходящий токи' },
-  topic_12096_transport_lab: { src: './images/bio6/transport.svg',           caption: 'Транспорт веществ в растении' },
-  topic_12071_fertilization: { src: './images/bio6/double-fertilization.svg',caption: 'Двойное оплодотворение (Навашин, 1898)' },
-  topic_12101_pollination_fertilization: { src: './images/bio6/double-fertilization.svg', caption: 'Двойное оплодотворение покрытосеменных' },
-  topic_12083_stem_lab:      { src: './images/bio6/stem-cross-section.svg',  caption: 'Слои стебля на поперечном срезе' },
+  topic_12045_higher_lower:   { src: 'images/bio6/higher-lower-plants.svg',   caption: 'Низшие (водоросли) и высшие растения' },
+  topic_12046_plant_cell:     { src: 'images/bio6/plant-cell.svg',             caption: 'Схема строения растительной клетки' },
+  topic_12047_plant_tissues:  { src: 'images/bio6/plant-tissues.svg',          caption: 'Виды тканей растений' },
+  topic_12049_root:           { src: 'images/bio6/root-types.svg',             caption: 'Стержневая и мочковатая корневые системы' },
+  topic_12050_root_structure: { src: 'images/bio6/root-cross-section.svg',     caption: 'Поперечный срез корня' },
+  topic_12051_root_zones:     { src: 'images/bio6/root-zones.svg',             caption: 'Зоны корня (от кончика вверх)' },
+  topic_12054_shoot_buds:     { src: 'images/bio6/shoot-structure.svg',        caption: 'Строение побега: узел, почка, лист' },
+  topic_12055_leaf_structure: { src: 'images/bio6/leaf-cross-section.svg',     caption: 'Поперечный срез листа' },
+  topic_12056_photosynthesis: { src: 'images/bio6/photosynthesis.svg',         caption: 'Фотосинтез: исходные вещества и продукты' },
+  topic_12057_root_breathing: { src: 'images/bio6/stomata.svg',                caption: 'Устьице: механизм открытия и закрытия' },
+  topic_12061_stem_wood:      { src: 'images/bio6/stem-cross-section.svg',     caption: 'Поперечный срез деревянистого стебля' },
+  topic_12062_vascular_root:  { src: 'images/bio6/transport.svg',              caption: 'Транспорт веществ: ксилема и флоэма' },
+  topic_12063_transpiration:  { src: 'images/bio6/transport.svg',              caption: 'Восходящий и нисходящий токи' },
+  topic_12064_meristem:       { src: 'images/bio6/meristem.svg',               caption: 'Зоны роста корня и побега (меристемы)' },
+  topic_12068_vegetative_repro: { src: 'images/bio6/vegetative-repro.svg',     caption: 'Способы вегетативного размножения' },
+  topic_12070_flowers_pollination: { src: 'images/bio6/flower-structure.svg',  caption: 'Строение цветка' },
+  topic_12071_fertilization:  { src: 'images/bio6/double-fertilization.svg',   caption: 'Двойное оплодотворение (Навашин, 1898)' },
+  topic_12072_fruit_types:    { src: 'images/bio6/fruit-types.svg',            caption: 'Сухие и сочные плоды покрытосеменных' },
+  topic_12073_seed_structure: { src: 'images/bio6/seed-structure.svg',         caption: 'Строение семени фасоли' },
+  topic_12074_seed_preparation: { src: 'images/bio6/germination.svg',          caption: 'Этапы прорастания семени' },
+  topic_12076_life_forms:     { src: 'images/bio6/life-forms.svg',             caption: 'Жизненные формы: дерево, кустарник, трава' },
+  topic_12079_tissues_lab:    { src: 'images/bio6/plant-tissues.svg',          caption: 'Виды растительных тканей' },
+  topic_12080_root_types_lab: { src: 'images/bio6/root-types.svg',             caption: 'Стержневая и мочковатая корневые системы' },
+  topic_12081_root_modifications: { src: 'images/bio6/root-modifications.svg', caption: 'Видоизменения корней' },
+  topic_12082_shoot_lab:      { src: 'images/bio6/shoot-structure.svg',        caption: 'Строение побега на схеме' },
+  topic_12083_stem_lab:       { src: 'images/bio6/stem-cross-section.svg',     caption: 'Слои стебля на поперечном срезе' },
+  topic_12084_leaf_lab:       { src: 'images/bio6/leaf-cross-section.svg',     caption: 'Строение листа на поперечном срезе' },
+  topic_12086_flower_lab:     { src: 'images/bio6/flower-structure.svg',       caption: 'Части цветка' },
+  topic_12087_inflorescences: { src: 'images/bio6/inflorescence.svg',          caption: 'Типы соцветий покрытосеменных' },
+  topic_12093_photosynthesis_role: { src: 'images/bio6/photosynthesis-equation.svg', caption: 'Уравнение и значение фотосинтеза' },
+  topic_12095_leaf_stem_breathing: { src: 'images/bio6/stomata.svg',           caption: 'Механизм работы устьиц' },
+  topic_12096_transport_lab:  { src: 'images/bio6/transport.svg',              caption: 'Транспорт веществ в растении' },
+  topic_12098_seed_germination_practical: { src: 'images/bio6/germination.svg', caption: 'Условия и этапы прорастания семян' },
+  topic_12101_pollination:    { src: 'images/bio6/double-fertilization.svg',   caption: 'Двойное оплодотворение покрытосеменных' },
 }
 
 export function getIllustration(nodeId) {
@@ -132,6 +158,7 @@ const ContentService = {
   getFinalQuiz,
   getSortTasks,
   getMatchTasks,
+  getReadingTasks,
   getCheatsheet,
   getDidYouKnow,
   getSimData,

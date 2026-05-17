@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 300" font-family="system-ui,sans-serif">
+  <rect width="360" height="300" fill="#0d1117"/>
+  <text x="180" y="18" text-anchor="middle" font-size="11" fill="#e8c891" font-weight="600">Прорастание семени</text>
+  <!-- Soil line -->
+  <rect x="0" y="185" width="360" height="115" fill="#0f0a05" rx="0"/>
+  <line x1="0" y1="185" x2="360" y2="185" stroke="#3d2a10" stroke-width="2"/>
+  <text x="330" y="200" font-size="8" fill="#3d2a10">почва</text>
+
+  <!-- Stage 1: seed -->
+  <g transform="translate(35,0)">
+    <text x="0" y="38" text-anchor="middle" font-size="9" fill="#8b949e">1. Набухание</text>
+    <ellipse cx="0" cy="210" rx="16" ry="13" fill="#1a1208" stroke="#e8c891" stroke-width="1.5"/>
+    <!-- water arrows -->
+    <text x="0" y="232" text-anchor="middle" font-size="7" fill="#a8c5d8">H₂O →</text>
+  </g>
+
+  <!-- Stage 2: radicle emerges -->
+  <g transform="translate(100,0)">
+    <text x="0" y="38" text-anchor="middle" font-size="9" fill="#8b949e">2. Корешок</text>
+    <ellipse cx="0" cy="205" rx="14" ry="11" fill="#1a1208" stroke="#e8c891" stroke-width="1.5"/>
+    <path d="M0,216 L0,240 Q5,248 0,255" stroke="#e8a070" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <text x="18" y="250" font-size="7" fill="#e8a070">корешок</text>
+  </g>
+
+  <!-- Stage 3: hypocotyl -->
+  <g transform="translate(178,0)">
+    <text x="0" y="38" text-anchor="middle" font-size="9" fill="#8b949e">3. Подсемядольное</text>
+    <text x="0" y="50" text-anchor="middle" font-size="9" fill="#8b949e">колено</text>
+    <ellipse cx="0" cy="200" rx="12" ry="9" fill="#1a1208" stroke="#e8c891" stroke-width="1.5"/>
+    <!-- Hypocotyl arch -->
+    <path d="M0,208 Q-10,220 -5,235 Q0,248 0,260" stroke="#8cc882" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- Root -->
+    <path d="M0,209 L0,265" stroke="#e8a070" stroke-width="2" fill="none"/>
+    <path d="M0,250 L-8,262 M0,250 L8,262" stroke="#e8a070" stroke-width="1.5" fill="none"/>
+    <!-- Hook label -->
+    <text x="-28" y="238" font-size="7" fill="#8cc882">дуга</text>
+  </g>
+
+  <!-- Stage 4: seedling -->
+  <g transform="translate(285,0)">
+    <text x="0" y="38" text-anchor="middle" font-size="9" fill="#8b949e">4. Проросток</text>
+    <!-- First leaves (семядоли above ground) -->
+    <ellipse cx="-10" cy="150" rx="12" ry="8" fill="#1a3a1a" stroke="#8cc882" stroke-width="1.5" transform="rotate(-20,-10,150)"/>
+    <ellipse cx="10" cy="150" rx="12" ry="8" fill="#1a3a1a" stroke="#8cc882" stroke-width="1.5" transform="rotate(20,10,150)"/>
+    <text x="0" y="136" text-anchor="middle" font-size="7" fill="#8cc882">семядоли</text>
+    <!-- Stem -->
+    <line x1="0" y1="158" x2="0" y2="188" stroke="#8cc882" stroke-width="2.5"/>
+    <!-- Root system below soil -->
+    <line x1="0" y1="188" x2="0" y2="265" stroke="#e8a070" stroke-width="2"/>
+    <line x1="0" y1="220" x2="-18" y2="238" stroke="#e8a070" stroke-width="1.5"/>
+    <line x1="0" y1="220" x2="18" y2="238" stroke="#e8a070" stroke-width="1.5"/>
+    <line x1="0" y1="244" x2="-12" y2="258" stroke="#e8a070" stroke-width="1.5"/>
+    <line x1="0" y1="244" x2="12" y2="258" stroke="#e8a070" stroke-width="1.5"/>
+  </g>
+
+  <!-- Arrows between stages -->
+  <text x="65" y="215" font-size="14" fill="#30363d">→</text>
+  <text x="135" y="215" font-size="14" fill="#30363d">→</text>
+  <text x="216" y="215" font-size="14" fill="#30363d">→</text>
+
+  <text x="180" y="285" text-anchor="middle" font-size="11" fill="#8b949e">Этапы прорастания семени</text>
+</svg>

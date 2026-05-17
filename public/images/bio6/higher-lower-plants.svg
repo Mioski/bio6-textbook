@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 300" font-family="system-ui,sans-serif">
+  <rect width="360" height="300" fill="#0d1117"/>
+  <text x="180" y="16" text-anchor="middle" font-size="12" fill="#e8c891" font-weight="600">Высшие и низшие растения</text>
+
+  <!-- Left: Низшие (Lower plants) -->
+  <rect x="8" y="26" width="162" height="250" rx="8" fill="#0a0a1a" stroke="#a8c5d8" stroke-width="2"/>
+  <text x="89" y="44" text-anchor="middle" font-size="11" fill="#a8c5d8" font-weight="600">Низшие</text>
+  <text x="89" y="58" text-anchor="middle" font-size="8" fill="#8b949e">(нет органов и тканей)</text>
+
+  <!-- Algae (водоросль) -->
+  <path d="M50,80 Q70,70 60,95 Q50,118 70,108 Q90,98 80,120 Q70,140 90,130" stroke="#a8c5d8" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <text x="110" y="100" font-size="9" fill="#a8c5d8">водоросль</text>
+  <text x="110" y="112" font-size="8" fill="#8b949e">Spirogyra</text>
+  <text x="89" y="155" text-anchor="middle" font-size="8" fill="#8b949e">• нет стебля/листьев/корня</text>
+  <text x="89" y="167" text-anchor="middle" font-size="8" fill="#8b949e">• нет тканей</text>
+  <text x="89" y="179" text-anchor="middle" font-size="8" fill="#8b949e">• тело = слоевище (таллом)</text>
+  <text x="89" y="191" text-anchor="middle" font-size="8" fill="#8b949e">• вода + влажная среда</text>
+  <text x="89" y="203" text-anchor="middle" font-size="8" fill="#8b949e">• споры или вегет. размн.</text>
+  <!-- Examples -->
+  <rect x="18" y="215" width="142" height="52" rx="5" fill="#0d0d1a" stroke="#a8c5d8" stroke-width="1"/>
+  <text x="89" y="231" text-anchor="middle" font-size="8" fill="#a8c5d8">Примеры:</text>
+  <text x="89" y="244" text-anchor="middle" font-size="8" fill="#8b949e">хлорелла, спирогира,</text>
+  <text x="89" y="256" text-anchor="middle" font-size="8" fill="#8b949e">хламидомонада, ламинария</text>
+
+  <!-- Right: Высшие (Higher plants) -->
+  <rect x="190" y="26" width="162" height="250" rx="8" fill="#0a1a0a" stroke="#8cc882" stroke-width="2"/>
+  <text x="271" y="44" text-anchor="middle" font-size="11" fill="#8cc882" font-weight="600">Высшие</text>
+  <text x="271" y="58" text-anchor="middle" font-size="8" fill="#8b949e">(есть органы и ткани)</text>
+
+  <!-- Simple plant sketch -->
+  <!-- Leaf -->
+  <ellipse cx="265" cy="85" rx="20" ry="12" fill="#1a3a1a" stroke="#8cc882" stroke-width="1.5" transform="rotate(-20,265,85)"/>
+  <!-- Stem -->
+  <line x1="271" y1="92" x2="271" y2="130" stroke="#8cc882" stroke-width="2.5"/>
+  <!-- Root -->
+  <path d="M271,130 L255,148 M271,130 L271,150 M271,130 L287,148" stroke="#e8a070" stroke-width="2" fill="none"/>
+  <!-- Labels on plant -->
+  <text x="300" y="82" font-size="8" fill="#8cc882">лист</text>
+  <text x="300" y="112" font-size="8" fill="#8cc882">стебель</text>
+  <text x="300" y="148" font-size="8" fill="#e8a070">корень</text>
+  <line x1="297" y1="80" x2="283" y2="82" stroke="#8b949e" stroke-width="0.7"/>
+  <line x1="297" y1="110" x2="287" y2="115" stroke="#8b949e" stroke-width="0.7"/>
+  <line x1="297" y1="146" x2="287" y2="143" stroke="#8b949e" stroke-width="0.7"/>
+
+  <text x="271" y="170" text-anchor="middle" font-size="8" fill="#8b949e">• есть стебель, лист, корень</text>
+  <text x="271" y="182" text-anchor="middle" font-size="8" fill="#8b949e">• есть ткани (покровная,</text>
+  <text x="271" y="194" text-anchor="middle" font-size="8" fill="#8b949e">  проводящая и др.)</text>
+  <text x="271" y="206" text-anchor="middle" font-size="8" fill="#8b949e">• наземно-воздушная среда</text>
+  <!-- Examples -->
+  <rect x="200" y="215" width="142" height="52" rx="5" fill="#0f1a0f" stroke="#8cc882" stroke-width="1"/>
+  <text x="271" y="231" text-anchor="middle" font-size="8" fill="#8cc882">Примеры:</text>
+  <text x="271" y="244" text-anchor="middle" font-size="8" fill="#8b949e">мхи, папоротники, хвощи,</text>
+  <text x="271" y="256" text-anchor="middle" font-size="8" fill="#8b949e">голосеменные, покрытосеменные</text>
+
+  <text x="180" y="285" text-anchor="middle" font-size="11" fill="#8b949e">Сравнение низших и высших растений</text>
+</svg>

@@ -6,9 +6,15 @@
     "section": "Растительный организм",
     "title": "Ботаника – наука о растениях. Разделы ботаники. Связь ботаники с другими науками и техникой",
     "order": 1,
-    "concepts": ["botany", "plant science", "biology branches", "scientific method"],
+    "concepts": [
+      "botany",
+      "plant science",
+      "biology branches",
+      "scientific method"
+    ],
     "prerequisites": [],
-    "difficulty": "basic"
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12044_plant_features",
@@ -17,9 +23,17 @@
     "section": "Растительный организм",
     "title": "Общие признаки растений. Уровни организации растительного организма",
     "order": 2,
-    "concepts": ["plant characteristics", "organization levels", "cell", "organism"],
-    "prerequisites": ["topic_12043_botany"],
-    "difficulty": "basic"
+    "concepts": [
+      "plant characteristics",
+      "organization levels",
+      "cell",
+      "organism"
+    ],
+    "prerequisites": [
+      "topic_12043_botany"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12045_higher_lower_plants",
@@ -28,9 +42,18 @@
     "section": "Растительный организм",
     "title": "Высшие и низшие растения. Споровые и семенные растения",
     "order": 3,
-    "concepts": ["higher plants", "lower plants", "spore plants", "seed plants", "classification"],
-    "prerequisites": ["topic_12044_plant_features"],
-    "difficulty": "basic"
+    "concepts": [
+      "higher plants",
+      "lower plants",
+      "spore plants",
+      "seed plants",
+      "classification"
+    ],
+    "prerequisites": [
+      "topic_12044_plant_features"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12046_plant_cell",
@@ -39,9 +62,18 @@
     "section": "Растительный организм",
     "title": "Растительная клетка. Изучение растительной клетки под световым микроскопом: клеточная оболочка, ядро, цитоплазма (пластиды, митохондрии, вакуоли)",
     "order": 4,
-    "concepts": ["plant cell", "cell wall", "nucleus", "chloroplast", "vacuole"],
-    "prerequisites": ["topic_12044_plant_features"],
-    "difficulty": "deep"
+    "concepts": [
+      "plant cell",
+      "cell wall",
+      "nucleus",
+      "chloroplast",
+      "vacuole"
+    ],
+    "prerequisites": [
+      "topic_12044_plant_features"
+    ],
+    "difficulty": "deep",
+    "type": "topic"
   },
   {
     "id": "topic_12047_plant_tissues",
@@ -50,9 +82,17 @@
     "section": "Растительный организм",
     "title": "Растительные ткани. Функции растительных тканей",
     "order": 5,
-    "concepts": ["plant tissues", "tissue functions", "meristem", "vascular tissue"],
-    "prerequisites": ["topic_12046_plant_cell"],
-    "difficulty": "basic"
+    "concepts": [
+      "plant tissues",
+      "tissue functions",
+      "meristem",
+      "vascular tissue"
+    ],
+    "prerequisites": [
+      "topic_12046_plant_cell"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12048_plant_organs",
@@ -61,9 +101,18 @@
     "section": "Растительный организм",
     "title": "Органы и системы органов растений. Строение, роль и связь между собой",
     "order": 6,
-    "concepts": ["plant organs", "organ systems", "root", "shoot", "leaf"],
-    "prerequisites": ["topic_12047_plant_tissues"],
-    "difficulty": "basic"
+    "concepts": [
+      "plant organs",
+      "organ systems",
+      "root",
+      "shoot",
+      "leaf"
+    ],
+    "prerequisites": [
+      "topic_12047_plant_tissues"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12077_cell_lab",
@@ -72,9 +121,17 @@
     "section": "Растительный организм",
     "title": "Растительная клетка, её изучение. Лабораторная работа «Изучение микроскопического строения листа элодеи»",
     "order": 7,
-    "concepts": ["plant cell", "microscopy", "elodea", "laboratory work"],
-    "prerequisites": ["topic_12046_plant_cell"],
-    "difficulty": "basic"
+    "concepts": [
+      "plant cell",
+      "microscopy",
+      "elodea",
+      "laboratory work"
+    ],
+    "prerequisites": [
+      "topic_12046_plant_cell"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12078_cell_activity",
@@ -83,9 +140,18 @@
     "section": "Растительный организм",
     "title": "Жизнедеятельность клетки",
     "order": 8,
-    "concepts": ["cell activity", "metabolism", "cell processes", "growth"],
-    "prerequisites": ["topic_12046_plant_cell", "topic_12077_cell_lab"],
-    "difficulty": "basic"
+    "concepts": [
+      "cell activity",
+      "metabolism",
+      "cell processes",
+      "growth"
+    ],
+    "prerequisites": [
+      "topic_12046_plant_cell",
+      "topic_12077_cell_lab"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12079_tissues_lab",
@@ -94,9 +160,18 @@
     "section": "Растительный организм",
     "title": "Растительные ткани, их функции. Лабораторная работа «Изучение строения растительных тканей»",
     "order": 9,
-    "concepts": ["plant tissues", "tissue structure", "laboratory work", "microscopy"],
-    "prerequisites": ["topic_12047_plant_tissues", "topic_12077_cell_lab"],
-    "difficulty": "basic"
+    "concepts": [
+      "plant tissues",
+      "tissue structure",
+      "laboratory work",
+      "microscopy"
+    ],
+    "prerequisites": [
+      "topic_12047_plant_tissues",
+      "topic_12077_cell_lab"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12049_root_nutrition",
@@ -105,9 +180,18 @@
     "section": "Питание растений",
     "title": "Корень – орган почвенного (минерального) питания. Корни и корневые системы. Виды корней и типы корневых систем",
     "order": 10,
-    "concepts": ["root", "mineral nutrition", "root systems", "taproot", "fibrous root"],
-    "prerequisites": ["topic_12048_plant_organs"],
-    "difficulty": "basic"
+    "concepts": [
+      "root",
+      "mineral nutrition",
+      "root systems",
+      "taproot",
+      "fibrous root"
+    ],
+    "prerequisites": [
+      "topic_12048_plant_organs"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12050_root_structure",
@@ -116,9 +200,17 @@
     "section": "Питание растений",
     "title": "Внешнее и внутреннее строение корня. Корневой чехлик",
     "order": 11,
-    "concepts": ["root structure", "root cap", "external morphology", "internal anatomy"],
-    "prerequisites": ["topic_12049_root_nutrition"],
-    "difficulty": "basic"
+    "concepts": [
+      "root structure",
+      "root cap",
+      "external morphology",
+      "internal anatomy"
+    ],
+    "prerequisites": [
+      "topic_12049_root_nutrition"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12051_root_zones",
@@ -127,9 +219,17 @@
     "section": "Питание растений",
     "title": "Зоны корня. Корневые волоски",
     "order": 12,
-    "concepts": ["root zones", "root hairs", "elongation zone", "absorption zone"],
-    "prerequisites": ["topic_12050_root_structure"],
-    "difficulty": "basic"
+    "concepts": [
+      "root zones",
+      "root hairs",
+      "elongation zone",
+      "absorption zone"
+    ],
+    "prerequisites": [
+      "topic_12050_root_structure"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12052_root_growth",
@@ -138,9 +238,18 @@
     "section": "Питание растений",
     "title": "Рост корня. Поглощение корнями воды и минеральных веществ (корневое давление, осмос). Видоизменения корней",
     "order": 13,
-    "concepts": ["root growth", "osmosis", "root pressure", "mineral absorption", "root modifications"],
-    "prerequisites": ["topic_12051_root_zones"],
-    "difficulty": "basic"
+    "concepts": [
+      "root growth",
+      "osmosis",
+      "root pressure",
+      "mineral absorption",
+      "root modifications"
+    ],
+    "prerequisites": [
+      "topic_12051_root_zones"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12053_soil",
@@ -149,9 +258,18 @@
     "section": "Питание растений",
     "title": "Почва, её плодородие. Обработка почвы, удобрения, прореживание, полив. Гидропоника",
     "order": 14,
-    "concepts": ["soil", "soil fertility", "fertilizers", "hydroponics", "tillage"],
-    "prerequisites": ["topic_12052_root_growth"],
-    "difficulty": "basic"
+    "concepts": [
+      "soil",
+      "soil fertility",
+      "fertilizers",
+      "hydroponics",
+      "tillage"
+    ],
+    "prerequisites": [
+      "topic_12052_root_growth"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12054_shoot_buds",
@@ -160,9 +278,18 @@
     "section": "Питание растений",
     "title": "Побег и почки. Листорасположение и листовая мозаика",
     "order": 15,
-    "concepts": ["shoot", "buds", "leaf arrangement", "leaf mosaic", "phyllotaxis"],
-    "prerequisites": ["topic_12048_plant_organs"],
-    "difficulty": "basic"
+    "concepts": [
+      "shoot",
+      "buds",
+      "leaf arrangement",
+      "leaf mosaic",
+      "phyllotaxis"
+    ],
+    "prerequisites": [
+      "topic_12048_plant_organs"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12055_leaf_structure",
@@ -171,9 +298,18 @@
     "section": "Питание растений",
     "title": "Строение и функции листа. Простые и сложные листья. Видоизменения листьев. Внутреннее строение листа",
     "order": 16,
-    "concepts": ["leaf structure", "simple leaf", "compound leaf", "leaf modifications", "mesophyll"],
-    "prerequisites": ["topic_12054_shoot_buds"],
-    "difficulty": "basic"
+    "concepts": [
+      "leaf structure",
+      "simple leaf",
+      "compound leaf",
+      "leaf modifications",
+      "mesophyll"
+    ],
+    "prerequisites": [
+      "topic_12054_shoot_buds"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12056_photosynthesis",
@@ -182,9 +318,19 @@
     "section": "Питание растений",
     "title": "Лист – орган воздушного питания. Фотосинтез. Значение фотосинтеза в природе и в жизни человека",
     "order": 17,
-    "concepts": ["photosynthesis", "chlorophyll", "carbon dioxide", "oxygen", "light energy"],
-    "prerequisites": ["topic_12055_leaf_structure", "topic_12046_plant_cell"],
-    "difficulty": "deep"
+    "concepts": [
+      "photosynthesis",
+      "chlorophyll",
+      "carbon dioxide",
+      "oxygen",
+      "light energy"
+    ],
+    "prerequisites": [
+      "topic_12055_leaf_structure",
+      "topic_12046_plant_cell"
+    ],
+    "difficulty": "deep",
+    "type": "topic"
   },
   {
     "id": "topic_12057_root_respiration",
@@ -193,9 +339,19 @@
     "section": "Дыхание растения",
     "title": "Дыхание корня. Рыхление почвы. Лист как орган дыхания (устьичный аппарат)",
     "order": 18,
-    "concepts": ["root respiration", "stomata", "soil aeration", "gas exchange", "guard cells"],
-    "prerequisites": ["topic_12056_photosynthesis", "topic_12053_soil"],
-    "difficulty": "basic"
+    "concepts": [
+      "root respiration",
+      "stomata",
+      "soil aeration",
+      "gas exchange",
+      "guard cells"
+    ],
+    "prerequisites": [
+      "topic_12056_photosynthesis",
+      "topic_12053_soil"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12058_stem_respiration",
@@ -204,9 +360,18 @@
     "section": "Дыхание растения",
     "title": "Стебель как орган дыхания (устьица в кожице, чечевички). Сущность дыхания растений. Взаимосвязь дыхания с фотосинтезом",
     "order": 19,
-    "concepts": ["stem respiration", "lenticels", "aerobic respiration", "ATP", "photosynthesis link"],
-    "prerequisites": ["topic_12057_root_respiration"],
-    "difficulty": "basic"
+    "concepts": [
+      "stem respiration",
+      "lenticels",
+      "aerobic respiration",
+      "ATP",
+      "photosynthesis link"
+    ],
+    "prerequisites": [
+      "topic_12057_root_respiration"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12059_organic_inorganic",
@@ -215,9 +380,18 @@
     "section": "Транспорт веществ",
     "title": "Неорганические и органические вещества растения",
     "order": 20,
-    "concepts": ["organic compounds", "inorganic compounds", "carbohydrates", "proteins", "minerals"],
-    "prerequisites": ["topic_12056_photosynthesis"],
-    "difficulty": "basic"
+    "concepts": [
+      "organic compounds",
+      "inorganic compounds",
+      "carbohydrates",
+      "proteins",
+      "minerals"
+    ],
+    "prerequisites": [
+      "topic_12056_photosynthesis"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12060_stem_axis",
@@ -226,9 +400,18 @@
     "section": "Транспорт веществ",
     "title": "Стебель – ось побега. Связь клеточного строения стебля с его функциями. Рост стебля в длину",
     "order": 21,
-    "concepts": ["stem structure", "stem functions", "longitudinal growth", "shoot axis"],
-    "prerequisites": ["topic_12054_shoot_buds", "topic_12047_plant_tissues"],
-    "difficulty": "basic"
+    "concepts": [
+      "stem structure",
+      "stem functions",
+      "longitudinal growth",
+      "shoot axis"
+    ],
+    "prerequisites": [
+      "topic_12054_shoot_buds",
+      "topic_12047_plant_tissues"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12061_stem_wood",
@@ -237,9 +420,18 @@
     "section": "Транспорт веществ",
     "title": "Клеточное строение стебля древесного растения: кора, камбий, древесина и сердцевина. Рост стебля в толщину",
     "order": 22,
-    "concepts": ["woody stem", "bark", "cambium", "wood", "annual rings"],
-    "prerequisites": ["topic_12060_stem_axis"],
-    "difficulty": "basic"
+    "concepts": [
+      "woody stem",
+      "bark",
+      "cambium",
+      "wood",
+      "annual rings"
+    ],
+    "prerequisites": [
+      "topic_12060_stem_axis"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12062_vascular_root",
@@ -248,9 +440,19 @@
     "section": "Транспорт веществ",
     "title": "Проводящие ткани корня. Транспорт воды и минеральных веществ (сосуды древесины) – восходящий ток",
     "order": 23,
-    "concepts": ["vascular tissue", "xylem", "ascending flow", "water transport", "mineral transport"],
-    "prerequisites": ["topic_12061_stem_wood", "topic_12052_root_growth"],
-    "difficulty": "basic"
+    "concepts": [
+      "vascular tissue",
+      "xylem",
+      "ascending flow",
+      "water transport",
+      "mineral transport"
+    ],
+    "prerequisites": [
+      "topic_12061_stem_wood",
+      "topic_12052_root_growth"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12063_transpiration",
@@ -259,9 +461,19 @@
     "section": "Транспорт веществ",
     "title": "Испарение воды через стебель и листья (транспирация). Транспорт органических веществ – нисходящий ток. Видоизменённые побеги",
     "order": 24,
-    "concepts": ["transpiration", "phloem", "descending flow", "shoot modifications", "organic transport"],
-    "prerequisites": ["topic_12062_vascular_root", "topic_12059_organic_inorganic"],
-    "difficulty": "basic"
+    "concepts": [
+      "transpiration",
+      "phloem",
+      "descending flow",
+      "shoot modifications",
+      "organic transport"
+    ],
+    "prerequisites": [
+      "topic_12062_vascular_root",
+      "topic_12059_organic_inorganic"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12064_meristem_growth",
@@ -270,9 +482,19 @@
     "section": "Рост растения",
     "title": "Образовательные ткани. Конус нарастания побега. Верхушечный и вставочный рост. Камбий. Образование годичных колец",
     "order": 25,
-    "concepts": ["meristem", "apical growth", "intercalary growth", "cambium", "annual rings"],
-    "prerequisites": ["topic_12061_stem_wood", "topic_12047_plant_tissues"],
-    "difficulty": "basic"
+    "concepts": [
+      "meristem",
+      "apical growth",
+      "intercalary growth",
+      "cambium",
+      "annual rings"
+    ],
+    "prerequisites": [
+      "topic_12061_stem_wood",
+      "topic_12047_plant_tissues"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12065_phytohormones",
@@ -281,9 +503,18 @@
     "section": "Рост растения",
     "title": "Влияние фитогормонов на рост растения. Ростовые движения растений. Развитие побега из почки",
     "order": 26,
-    "concepts": ["phytohormones", "auxin", "tropism", "bud development", "growth movements"],
-    "prerequisites": ["topic_12064_meristem_growth"],
-    "difficulty": "basic"
+    "concepts": [
+      "phytohormones",
+      "auxin",
+      "tropism",
+      "bud development",
+      "growth movements"
+    ],
+    "prerequisites": [
+      "topic_12064_meristem_growth"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12066_growth_management",
@@ -292,9 +523,18 @@
     "section": "Рост растения",
     "title": "Управление ростом растения. Формирование кроны",
     "order": 27,
-    "concepts": ["growth regulation", "pruning", "crown formation", "horticulture", "apical dominance"],
-    "prerequisites": ["topic_12065_phytohormones"],
-    "difficulty": "basic"
+    "concepts": [
+      "growth regulation",
+      "pruning",
+      "crown formation",
+      "horticulture",
+      "apical dominance"
+    ],
+    "prerequisites": [
+      "topic_12065_phytohormones"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12067_lateral_shoots",
@@ -303,9 +543,18 @@
     "section": "Рост растения",
     "title": "Применение знаний о росте растения в сельском хозяйстве. Развитие боковых побегов",
     "order": 28,
-    "concepts": ["agriculture", "lateral shoots", "branching", "applied botany", "crop management"],
-    "prerequisites": ["topic_12066_growth_management"],
-    "difficulty": "basic"
+    "concepts": [
+      "agriculture",
+      "lateral shoots",
+      "branching",
+      "applied botany",
+      "crop management"
+    ],
+    "prerequisites": [
+      "topic_12066_growth_management"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12068_vegetative_reproduction",
@@ -314,9 +563,18 @@
     "section": "Размножение растения",
     "title": "Вегетативное размножение цветковых растений в природе. Вегетативное размножение культурных растений",
     "order": 29,
-    "concepts": ["vegetative reproduction", "cuttings", "runners", "bulbs", "cultural plants"],
-    "prerequisites": ["topic_12048_plant_organs"],
-    "difficulty": "basic"
+    "concepts": [
+      "vegetative reproduction",
+      "cuttings",
+      "runners",
+      "bulbs",
+      "cultural plants"
+    ],
+    "prerequisites": [
+      "topic_12048_plant_organs"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12069_clones",
@@ -325,9 +583,18 @@
     "section": "Размножение растения",
     "title": "Клоны. Сохранение признаков материнского растения. Хозяйственное значение вегетативного размножения",
     "order": 30,
-    "concepts": ["clones", "genetic identity", "mother plant", "economic importance", "propagation"],
-    "prerequisites": ["topic_12068_vegetative_reproduction"],
-    "difficulty": "basic"
+    "concepts": [
+      "clones",
+      "genetic identity",
+      "mother plant",
+      "economic importance",
+      "propagation"
+    ],
+    "prerequisites": [
+      "topic_12068_vegetative_reproduction"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12070_flowers_pollination",
@@ -336,9 +603,18 @@
     "section": "Размножение растения",
     "title": "Семенное (генеративное) размножение. Цветки и соцветия. Опыление. Перекрёстное опыление и самоопыление",
     "order": 31,
-    "concepts": ["flowers", "inflorescences", "pollination", "cross-pollination", "self-pollination"],
-    "prerequisites": ["topic_12069_clones"],
-    "difficulty": "basic"
+    "concepts": [
+      "flowers",
+      "inflorescences",
+      "pollination",
+      "cross-pollination",
+      "self-pollination"
+    ],
+    "prerequisites": [
+      "topic_12069_clones"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12071_fertilization",
@@ -347,9 +623,18 @@
     "section": "Размножение растения",
     "title": "Двойное оплодотворение. Наследование признаков. Образование плодов и семян",
     "order": 32,
-    "concepts": ["double fertilization", "inheritance", "fruit formation", "seed formation", "embryo"],
-    "prerequisites": ["topic_12070_flowers_pollination"],
-    "difficulty": "basic"
+    "concepts": [
+      "double fertilization",
+      "inheritance",
+      "fruit formation",
+      "seed formation",
+      "embryo"
+    ],
+    "prerequisites": [
+      "topic_12070_flowers_pollination"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12072_fruit_types",
@@ -358,9 +643,18 @@
     "section": "Размножение растения",
     "title": "Типы плодов. Распространение плодов и семян в природе",
     "order": 33,
-    "concepts": ["fruit types", "seed dispersal", "wind dispersal", "animal dispersal", "classification"],
-    "prerequisites": ["topic_12071_fertilization"],
-    "difficulty": "basic"
+    "concepts": [
+      "fruit types",
+      "seed dispersal",
+      "wind dispersal",
+      "animal dispersal",
+      "classification"
+    ],
+    "prerequisites": [
+      "topic_12071_fertilization"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12073_seed_structure",
@@ -369,9 +663,18 @@
     "section": "Размножение растения",
     "title": "Состав и строение семян. Условия прорастания семян",
     "order": 34,
-    "concepts": ["seed composition", "seed structure", "germination conditions", "cotyledon", "endosperm"],
-    "prerequisites": ["topic_12072_fruit_types"],
-    "difficulty": "deep"
+    "concepts": [
+      "seed composition",
+      "seed structure",
+      "germination conditions",
+      "cotyledon",
+      "endosperm"
+    ],
+    "prerequisites": [
+      "topic_12072_fruit_types"
+    ],
+    "difficulty": "deep",
+    "type": "topic"
   },
   {
     "id": "topic_12074_seed_sowing",
@@ -380,9 +683,18 @@
     "section": "Размножение растения",
     "title": "Подготовка семян к посеву. Развитие проростков",
     "order": 35,
-    "concepts": ["seed preparation", "sowing", "seedling development", "germination", "agriculture"],
-    "prerequisites": ["topic_12073_seed_structure"],
-    "difficulty": "basic"
+    "concepts": [
+      "seed preparation",
+      "sowing",
+      "seedling development",
+      "germination",
+      "agriculture"
+    ],
+    "prerequisites": [
+      "topic_12073_seed_structure"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12075_plant_development",
@@ -391,9 +703,19 @@
     "section": "Развитие растения",
     "title": "Развитие цветкового растения. Периоды его развития. Цикл развития",
     "order": 36,
-    "concepts": ["plant development", "life cycle", "developmental stages", "flowering plant", "ontogeny"],
-    "prerequisites": ["topic_12074_seed_sowing", "topic_12071_fertilization"],
-    "difficulty": "deep"
+    "concepts": [
+      "plant development",
+      "life cycle",
+      "developmental stages",
+      "flowering plant",
+      "ontogeny"
+    ],
+    "prerequisites": [
+      "topic_12074_seed_sowing",
+      "topic_12071_fertilization"
+    ],
+    "difficulty": "deep",
+    "type": "topic"
   },
   {
     "id": "topic_12076_environment_life_forms",
@@ -402,9 +724,18 @@
     "section": "Развитие растения",
     "title": "Влияние факторов внешней среды на развитие. Жизненные формы цветковых растений",
     "order": 37,
-    "concepts": ["environmental factors", "life forms", "trees", "shrubs", "herbs"],
-    "prerequisites": ["topic_12075_plant_development"],
-    "difficulty": "basic"
+    "concepts": [
+      "environmental factors",
+      "life forms",
+      "trees",
+      "shrubs",
+      "herbs"
+    ],
+    "prerequisites": [
+      "topic_12075_plant_development"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12080_root_systems_lab",
@@ -413,9 +744,19 @@
     "section": "Строение и многообразие покрытосеменных растений",
     "title": "Виды корней и типы корневых систем. Лабораторная работа",
     "order": 38,
-    "concepts": ["root types", "root systems", "laboratory work", "morphology", "angiosperms"],
-    "prerequisites": ["topic_12049_root_nutrition", "topic_12050_root_structure"],
-    "difficulty": "basic"
+    "concepts": [
+      "root types",
+      "root systems",
+      "laboratory work",
+      "morphology",
+      "angiosperms"
+    ],
+    "prerequisites": [
+      "topic_12049_root_nutrition",
+      "topic_12050_root_structure"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12081_root_modifications",
@@ -424,9 +765,19 @@
     "section": "Строение и многообразие покрытосеменных растений",
     "title": "Видоизменения корней",
     "order": 39,
-    "concepts": ["root modifications", "storage roots", "aerial roots", "prop roots", "adaptation"],
-    "prerequisites": ["topic_12080_root_systems_lab", "topic_12052_root_growth"],
-    "difficulty": "basic"
+    "concepts": [
+      "root modifications",
+      "storage roots",
+      "aerial roots",
+      "prop roots",
+      "adaptation"
+    ],
+    "prerequisites": [
+      "topic_12080_root_systems_lab",
+      "topic_12052_root_growth"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12082_shoot_lab",
@@ -435,9 +786,19 @@
     "section": "Строение и многообразие покрытосеменных растений",
     "title": "Побег. Развитие побега из почки. Лабораторная работа",
     "order": 40,
-    "concepts": ["shoot development", "bud", "laboratory work", "shoot morphology", "node"],
-    "prerequisites": ["topic_12054_shoot_buds", "topic_12065_phytohormones"],
-    "difficulty": "basic"
+    "concepts": [
+      "shoot development",
+      "bud",
+      "laboratory work",
+      "shoot morphology",
+      "node"
+    ],
+    "prerequisites": [
+      "topic_12054_shoot_buds",
+      "topic_12065_phytohormones"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12083_stem_lab",
@@ -446,9 +807,19 @@
     "section": "Строение и многообразие покрытосеменных растений",
     "title": "Строение стебля. Лабораторная работа",
     "order": 41,
-    "concepts": ["stem anatomy", "cross section", "laboratory work", "xylem", "phloem"],
-    "prerequisites": ["topic_12060_stem_axis", "topic_12061_stem_wood"],
-    "difficulty": "basic"
+    "concepts": [
+      "stem anatomy",
+      "cross section",
+      "laboratory work",
+      "xylem",
+      "phloem"
+    ],
+    "prerequisites": [
+      "topic_12060_stem_axis",
+      "topic_12061_stem_wood"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12084_leaf_lab",
@@ -457,9 +828,18 @@
     "section": "Строение и многообразие покрытосеменных растений",
     "title": "Внешнее и внутреннее строение листа. Лабораторная работа",
     "order": 42,
-    "concepts": ["leaf anatomy", "epidermis", "mesophyll", "laboratory work", "stomata"],
-    "prerequisites": ["topic_12055_leaf_structure"],
-    "difficulty": "basic"
+    "concepts": [
+      "leaf anatomy",
+      "epidermis",
+      "mesophyll",
+      "laboratory work",
+      "stomata"
+    ],
+    "prerequisites": [
+      "topic_12055_leaf_structure"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12085_shoot_modifications_lab",
@@ -468,9 +848,19 @@
     "section": "Строение и многообразие покрытосеменных растений",
     "title": "Видоизменения побегов. Лабораторная работа",
     "order": 43,
-    "concepts": ["shoot modifications", "rhizome", "tuber", "bulb", "laboratory work"],
-    "prerequisites": ["topic_12063_transpiration", "topic_12082_shoot_lab"],
-    "difficulty": "basic"
+    "concepts": [
+      "shoot modifications",
+      "rhizome",
+      "tuber",
+      "bulb",
+      "laboratory work"
+    ],
+    "prerequisites": [
+      "topic_12063_transpiration",
+      "topic_12082_shoot_lab"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12086_flower_lab",
@@ -479,9 +869,18 @@
     "section": "Строение и многообразие покрытосеменных растений",
     "title": "Строение и разнообразие цветков. Лабораторная работа",
     "order": 44,
-    "concepts": ["flower structure", "petals", "stamens", "pistil", "laboratory work"],
-    "prerequisites": ["topic_12070_flowers_pollination"],
-    "difficulty": "basic"
+    "concepts": [
+      "flower structure",
+      "petals",
+      "stamens",
+      "pistil",
+      "laboratory work"
+    ],
+    "prerequisites": [
+      "topic_12070_flowers_pollination"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12087_inflorescences_lab",
@@ -490,9 +889,18 @@
     "section": "Строение и многообразие покрытосеменных растений",
     "title": "Соцветия. Лабораторная работа",
     "order": 45,
-    "concepts": ["inflorescences", "raceme", "umbel", "spike", "laboratory work"],
-    "prerequisites": ["topic_12086_flower_lab"],
-    "difficulty": "basic"
+    "concepts": [
+      "inflorescences",
+      "raceme",
+      "umbel",
+      "spike",
+      "laboratory work"
+    ],
+    "prerequisites": [
+      "topic_12086_flower_lab"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12088_fruits",
@@ -501,9 +909,19 @@
     "section": "Строение и многообразие покрытосеменных растений",
     "title": "Плоды",
     "order": 46,
-    "concepts": ["fruit structure", "pericarp", "dry fruits", "fleshy fruits", "classification"],
-    "prerequisites": ["topic_12072_fruit_types", "topic_12087_inflorescences_lab"],
-    "difficulty": "basic"
+    "concepts": [
+      "fruit structure",
+      "pericarp",
+      "dry fruits",
+      "fleshy fruits",
+      "classification"
+    ],
+    "prerequisites": [
+      "topic_12072_fruit_types",
+      "topic_12087_inflorescences_lab"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12089_seed_dispersal",
@@ -512,9 +930,19 @@
     "section": "Строение и многообразие покрытосеменных растений",
     "title": "Распространение плодов и семян в природе",
     "order": 47,
-    "concepts": ["seed dispersal", "wind", "animals", "water", "mechanisms"],
-    "prerequisites": ["topic_12088_fruits", "topic_12073_seed_structure"],
-    "difficulty": "basic"
+    "concepts": [
+      "seed dispersal",
+      "wind",
+      "animals",
+      "water",
+      "mechanisms"
+    ],
+    "prerequisites": [
+      "topic_12088_fruits",
+      "topic_12073_seed_structure"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12090_plant_metabolism",
@@ -523,9 +951,19 @@
     "section": "Жизнедеятельность растительного организма",
     "title": "Обмен веществ у растений",
     "order": 48,
-    "concepts": ["metabolism", "anabolism", "catabolism", "energy", "biochemistry"],
-    "prerequisites": ["topic_12059_organic_inorganic", "topic_12078_cell_activity"],
-    "difficulty": "basic"
+    "concepts": [
+      "metabolism",
+      "anabolism",
+      "catabolism",
+      "energy",
+      "biochemistry"
+    ],
+    "prerequisites": [
+      "topic_12059_organic_inorganic",
+      "topic_12078_cell_activity"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12091_mineral_nutrition",
@@ -534,9 +972,19 @@
     "section": "Жизнедеятельность растительного организма",
     "title": "Минеральное питание растений. Удобрения",
     "order": 49,
-    "concepts": ["mineral nutrition", "nitrogen", "phosphorus", "fertilizers", "soil nutrients"],
-    "prerequisites": ["topic_12090_plant_metabolism", "topic_12053_soil"],
-    "difficulty": "basic"
+    "concepts": [
+      "mineral nutrition",
+      "nitrogen",
+      "phosphorus",
+      "fertilizers",
+      "soil nutrients"
+    ],
+    "prerequisites": [
+      "topic_12090_plant_metabolism",
+      "topic_12053_soil"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12092_photosynthesis_lab",
@@ -545,9 +993,19 @@
     "section": "Жизнедеятельность растительного организма",
     "title": "Фотосинтез. Практическая работа",
     "order": 50,
-    "concepts": ["photosynthesis", "practical work", "light", "chloroplast", "glucose"],
-    "prerequisites": ["topic_12056_photosynthesis", "topic_12091_mineral_nutrition"],
-    "difficulty": "basic"
+    "concepts": [
+      "photosynthesis",
+      "practical work",
+      "light",
+      "chloroplast",
+      "glucose"
+    ],
+    "prerequisites": [
+      "topic_12056_photosynthesis",
+      "topic_12091_mineral_nutrition"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12093_photosynthesis_role",
@@ -556,9 +1014,18 @@
     "section": "Жизнедеятельность растительного организма",
     "title": "Роль фотосинтеза в природе и жизни человека",
     "order": 51,
-    "concepts": ["photosynthesis importance", "oxygen production", "food chains", "ecology", "human life"],
-    "prerequisites": ["topic_12092_photosynthesis_lab"],
-    "difficulty": "basic"
+    "concepts": [
+      "photosynthesis importance",
+      "oxygen production",
+      "food chains",
+      "ecology",
+      "human life"
+    ],
+    "prerequisites": [
+      "topic_12092_photosynthesis_lab"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12094_root_respiration_lab",
@@ -567,9 +1034,19 @@
     "section": "Жизнедеятельность растительного организма",
     "title": "Дыхание корня. Лабораторная работа",
     "order": 52,
-    "concepts": ["root respiration", "laboratory work", "oxygen", "carbon dioxide", "aerobic"],
-    "prerequisites": ["topic_12057_root_respiration", "topic_12093_photosynthesis_role"],
-    "difficulty": "basic"
+    "concepts": [
+      "root respiration",
+      "laboratory work",
+      "oxygen",
+      "carbon dioxide",
+      "aerobic"
+    ],
+    "prerequisites": [
+      "topic_12057_root_respiration",
+      "topic_12093_photosynthesis_role"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12095_leaf_stem_respiration",
@@ -578,9 +1055,19 @@
     "section": "Жизнедеятельность растительного организма",
     "title": "Лист и стебель как органы дыхания",
     "order": 53,
-    "concepts": ["leaf respiration", "stem respiration", "stomata", "lenticels", "gas exchange"],
-    "prerequisites": ["topic_12094_root_respiration_lab", "topic_12058_stem_respiration"],
-    "difficulty": "basic"
+    "concepts": [
+      "leaf respiration",
+      "stem respiration",
+      "stomata",
+      "lenticels",
+      "gas exchange"
+    ],
+    "prerequisites": [
+      "topic_12094_root_respiration_lab",
+      "topic_12058_stem_respiration"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12096_transport_lab",
@@ -589,9 +1076,19 @@
     "section": "Жизнедеятельность растительного организма",
     "title": "Транспорт веществ в растении. Практическая работа",
     "order": 54,
-    "concepts": ["transport", "xylem", "phloem", "practical work", "vascular system"],
-    "prerequisites": ["topic_12095_leaf_stem_respiration", "topic_12063_transpiration"],
-    "difficulty": "basic"
+    "concepts": [
+      "transport",
+      "xylem",
+      "phloem",
+      "practical work",
+      "vascular system"
+    ],
+    "prerequisites": [
+      "topic_12095_leaf_stem_respiration",
+      "topic_12063_transpiration"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12097_excretion_leaf_fall",
@@ -600,9 +1097,18 @@
     "section": "Жизнедеятельность растительного организма",
     "title": "Выделение у растений. Листопад",
     "order": 55,
-    "concepts": ["plant excretion", "leaf fall", "abscission", "waste products", "seasonal changes"],
-    "prerequisites": ["topic_12096_transport_lab"],
-    "difficulty": "basic"
+    "concepts": [
+      "plant excretion",
+      "leaf fall",
+      "abscission",
+      "waste products",
+      "seasonal changes"
+    ],
+    "prerequisites": [
+      "topic_12096_transport_lab"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12098_germination_lab",
@@ -611,9 +1117,19 @@
     "section": "Жизнедеятельность растительного организма",
     "title": "Прорастание семян. Практическая работа",
     "order": 56,
-    "concepts": ["seed germination", "practical work", "moisture", "temperature", "seedling"],
-    "prerequisites": ["topic_12073_seed_structure", "topic_12097_excretion_leaf_fall"],
-    "difficulty": "basic"
+    "concepts": [
+      "seed germination",
+      "practical work",
+      "moisture",
+      "temperature",
+      "seedling"
+    ],
+    "prerequisites": [
+      "topic_12073_seed_structure",
+      "topic_12097_excretion_leaf_fall"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12099_growth_development_lab",
@@ -622,9 +1138,19 @@
     "section": "Жизнедеятельность растительного организма",
     "title": "Рост и развитие растения. Практическая работа",
     "order": 57,
-    "concepts": ["plant growth", "development", "practical work", "stages", "observation"],
-    "prerequisites": ["topic_12098_germination_lab", "topic_12076_environment_life_forms"],
-    "difficulty": "basic"
+    "concepts": [
+      "plant growth",
+      "development",
+      "practical work",
+      "stages",
+      "observation"
+    ],
+    "prerequisites": [
+      "topic_12098_germination_lab",
+      "topic_12076_environment_life_forms"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12100_reproduction_significance",
@@ -633,9 +1159,19 @@
     "section": "Жизнедеятельность растительного организма",
     "title": "Размножение растений и его значение",
     "order": 58,
-    "concepts": ["plant reproduction", "biological significance", "diversity", "evolution", "ecology"],
-    "prerequisites": ["topic_12099_growth_development_lab", "topic_12068_vegetative_reproduction"],
-    "difficulty": "basic"
+    "concepts": [
+      "plant reproduction",
+      "biological significance",
+      "diversity",
+      "evolution",
+      "ecology"
+    ],
+    "prerequisites": [
+      "topic_12099_growth_development_lab",
+      "topic_12068_vegetative_reproduction"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12101_pollination_fertilization",
@@ -644,9 +1180,19 @@
     "section": "Жизнедеятельность растительного организма",
     "title": "Опыление. Двойное оплодотворение",
     "order": 59,
-    "concepts": ["pollination", "double fertilization", "pollen", "ovule", "angiosperm"],
-    "prerequisites": ["topic_12100_reproduction_significance", "topic_12071_fertilization"],
-    "difficulty": "basic"
+    "concepts": [
+      "pollination",
+      "double fertilization",
+      "pollen",
+      "ovule",
+      "angiosperm"
+    ],
+    "prerequisites": [
+      "topic_12100_reproduction_significance",
+      "topic_12071_fertilization"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12102_fruit_seed_formation",
@@ -655,9 +1201,18 @@
     "section": "Жизнедеятельность растительного организма",
     "title": "Образование плодов и семян",
     "order": 60,
-    "concepts": ["fruit development", "seed development", "pericarp", "endosperm", "embryo"],
-    "prerequisites": ["topic_12101_pollination_fertilization"],
-    "difficulty": "basic"
+    "concepts": [
+      "fruit development",
+      "seed development",
+      "pericarp",
+      "endosperm",
+      "embryo"
+    ],
+    "prerequisites": [
+      "topic_12101_pollination_fertilization"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12103_vegetative_reproduction_lab",
@@ -666,9 +1221,19 @@
     "section": "Жизнедеятельность растительного организма",
     "title": "Вегетативное размножение растений. Практическая работа",
     "order": 61,
-    "concepts": ["vegetative reproduction", "practical work", "grafting", "cuttings", "layering"],
-    "prerequisites": ["topic_12102_fruit_seed_formation", "topic_12069_clones"],
-    "difficulty": "basic"
+    "concepts": [
+      "vegetative reproduction",
+      "practical work",
+      "grafting",
+      "cuttings",
+      "layering"
+    ],
+    "prerequisites": [
+      "topic_12102_fruit_seed_formation",
+      "topic_12069_clones"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   },
   {
     "id": "topic_12104_reserve",
@@ -677,8 +1242,16 @@
     "section": "Резервное время",
     "title": "Резервный урок. Обобщение знаний",
     "order": 62,
-    "concepts": ["review", "consolidation", "summary", "knowledge check"],
-    "prerequisites": ["topic_12103_vegetative_reproduction_lab"],
-    "difficulty": "basic"
+    "concepts": [
+      "review",
+      "consolidation",
+      "summary",
+      "knowledge check"
+    ],
+    "prerequisites": [
+      "topic_12103_vegetative_reproduction_lab"
+    ],
+    "difficulty": "basic",
+    "type": "topic"
   }
 ]

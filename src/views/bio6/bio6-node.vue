@@ -43,8 +43,15 @@
       </section>
 
       <!-- 5. Trainers -->
-      <section class="section-wrap" v-if="sortTasks.length || matchTasks.length">
+      <section class="section-wrap" v-if="sortTasks.length || matchTasks.length || readingTasks.length">
         <h2 class="section-title">🔁 Тренажёры</h2>
+        <Bio6ReadingTask
+          v-for="task in readingTasks"
+          :key="task.id"
+          :task="task"
+          :nodeId="nodeId"
+          @completed="(r) => onTrainerCompleted('reading_' + task.id, r)"
+        />
         <Bio6SortTrainer
           v-for="task in sortTasks"
           :key="task.id"
@@ -100,7 +107,7 @@
 </template>
 
 <script setup>
-import { inject, computed, watch, defineAsyncComponent, onMounted, ref } from 'vue'
+import { inject, computed, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import Bio6Hook from './components/Bio6Hook.vue'
 import Bio6Cheatsheet from './components/Bio6Cheatsheet.vue'
@@ -112,7 +119,13 @@ import Bio6DidYouKnow from './components/Bio6DidYouKnow.vue'
 import Bio6BridgeRecap from './components/Bio6BridgeRecap.vue'
 import Bio6SortTrainer from './components/Bio6SortTrainer.vue'
 import Bio6MatchTrainer from './components/Bio6MatchTrainer.vue'
+import Bio6ReadingTask from './components/Bio6ReadingTask.vue'
 import Bio6Illustration from './components/Bio6Illustration.vue'
+import Bio6CellSim from './components/sims/Bio6CellSim.vue'
+import Bio6PhotosynthesisSim from './components/sims/Bio6PhotosynthesisSim.vue'
+import Bio6SeedSim from './components/sims/Bio6SeedSim.vue'
+import Bio6LifeCycleSim from './components/sims/Bio6LifeCycleSim.vue'
+import Bio6GenericSim from './components/sims/Bio6GenericSim.vue'
 import ProgressService from '../../services/bio6/ProgressService.js'
 
 const props = defineProps({ nodeId: String })
@@ -122,12 +135,11 @@ const nav = inject('NavigationService')
 const chain = inject('ChainService')
 const router = useRouter()
 
-// Async component map for deep topic simulations
 const deepSimMap = {
-  'topic_12046_plant_cell': defineAsyncComponent(() => import('./components/sims/Bio6CellSim.vue')),
-  'topic_12056_photosynthesis': defineAsyncComponent(() => import('./components/sims/Bio6PhotosynthesisSim.vue')),
-  'topic_12073_seed_structure': defineAsyncComponent(() => import('./components/sims/Bio6SeedSim.vue')),
-  'topic_12075_plant_life_cycle': defineAsyncComponent(() => import('./components/sims/Bio6LifeCycleSim.vue')),
+  'topic_12046_plant_cell': Bio6CellSim,
+  'topic_12056_photosynthesis': Bio6PhotosynthesisSim,
+  'topic_12073_seed_structure': Bio6SeedSim,
+  'topic_12075_plant_life_cycle': Bio6LifeCycleSim,
 }
 
 const node = computed(() => cs.getNode(props.nodeId))
@@ -143,15 +155,14 @@ const matchTasks = computed(() => cs.getMatchTasks(props.nodeId))
 const dyk = computed(() => cs.getDidYouKnow(props.nodeId))
 const simData = computed(() => cs.getSimData(props.nodeId))
 const illustration = computed(() => cs.getIllustration(props.nodeId))
+const readingTasks = computed(() => cs.getReadingTasks(props.nodeId))
 
 const bridge = computed(() => chain.getBridge(props.nodeId))
 const recap = computed(() => chain.getRecap(props.nodeId))
 
 const mainInteractiveComponent = computed(() => {
   if (deepSimMap[props.nodeId]) return deepSimMap[props.nodeId]
-  if (simData.value) {
-    return defineAsyncComponent(() => import('./components/sims/Bio6GenericSim.vue'))
-  }
+  if (simData.value) return Bio6GenericSim
   return null
 })
 
