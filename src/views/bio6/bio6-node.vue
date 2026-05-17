@@ -17,6 +17,14 @@
       <!-- 1. Hook -->
       <Bio6Hook v-if="hook" :text="hook" />
 
+      <!-- 1b. Illustration -->
+      <Bio6Illustration
+        v-if="illustration"
+        :src="illustration.src"
+        :alt="node.title"
+        :caption="illustration.caption"
+      />
+
       <!-- 2. Cheatsheet (collapsed by default) -->
       <Bio6Cheatsheet v-if="cheatsheet" :sections="cheatsheet" @opened="markElement('cheatsheet')" />
 
@@ -104,6 +112,7 @@ import Bio6DidYouKnow from './components/Bio6DidYouKnow.vue'
 import Bio6BridgeRecap from './components/Bio6BridgeRecap.vue'
 import Bio6SortTrainer from './components/Bio6SortTrainer.vue'
 import Bio6MatchTrainer from './components/Bio6MatchTrainer.vue'
+import Bio6Illustration from './components/Bio6Illustration.vue'
 import ProgressService from '../../services/bio6/ProgressService.js'
 
 const props = defineProps({ nodeId: String })
@@ -133,6 +142,7 @@ const sortTasks = computed(() => cs.getSortTasks(props.nodeId))
 const matchTasks = computed(() => cs.getMatchTasks(props.nodeId))
 const dyk = computed(() => cs.getDidYouKnow(props.nodeId))
 const simData = computed(() => cs.getSimData(props.nodeId))
+const illustration = computed(() => cs.getIllustration(props.nodeId))
 
 const bridge = computed(() => chain.getBridge(props.nodeId))
 const recap = computed(() => chain.getRecap(props.nodeId))
