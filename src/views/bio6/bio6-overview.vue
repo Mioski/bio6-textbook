@@ -30,7 +30,6 @@
           <div class="node-title">{{ node.title }}</div>
           <div class="node-meta">
             <span v-if="node.difficulty === 'deep'" class="badge-deep">глубокое</span>
-            <span class="node-utk">УТК {{ node.utk_id }}</span>
           </div>
           <div v-if="getProgress(node.id) > 0" class="node-progress-bar">
             <div class="node-progress-fill" :style="{ width: getProgress(node.id) + '%' }"></div>
@@ -186,11 +185,6 @@ const completedCount = computed(() => {
   color: var(--accent-gold);
   padding: 2px 6px;
   border-radius: 4px;
-}
-
-.node-utk {
-  font-size: 11px;
-  color: var(--text-muted);
 }
 
 .node-progress-bar {

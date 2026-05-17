@@ -3,7 +3,7 @@
     <!-- Header navigation -->
     <div class="node-nav">
       <button class="back-btn" @click="goBack">← {{ backLabel }}</button>
-      <div class="node-num">УТК {{ node?.utk_id }}</div>
+      <div class="node-num">Тема {{ node?.order }}</div>
     </div>
 
     <div v-if="node" class="node-content">
