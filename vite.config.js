@@ -2,13 +2,14 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import { resolve } from 'path'
 
-// Removes type="module" and crossorigin from output HTML so app works via file://
+// Replaces type="module" with defer and removes crossorigin so app works via file://
+// type="module" is deferred by spec; plain <script> in <head> is not — must add defer explicitly
 function fileProtocolCompat() {
   return {
     name: 'file-protocol-compat',
     transformIndexHtml(html) {
       return html
-        .replace(/type="module"\s*/g, '')
+        .replace(/type="module"\s+(crossorigin\s+)?/g, 'defer ')
         .replace(/\s+crossorigin/g, '')
     }
   }
