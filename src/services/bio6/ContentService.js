@@ -8,6 +8,8 @@ import cheatsheetsData from '@data/cheatsheets.json'
 import didYouKnowData from '@data/did-you-know.json'
 import simData from '@data/sim-data.json'
 import readingTasksData from '@data/reading-tasks.json'
+import rememberCheckData from '@data/remember-check.json'
+import trueFalseData from '@data/true-false-tasks.json'
 
 const blocks = [
   { id: 'block1', title: 'Растительный организм', subtitle: 'Клетки, ткани, органы', emoji: '🔬' },
@@ -98,6 +100,16 @@ export function getSimData(nodeId) {
   return entry ? entry.data : null
 }
 
+export function getRememberCheck(nodeId) {
+  const entry = rememberCheckData.find(r => r.nodeId === nodeId)
+  return entry ? { remember: entry.remember, check: entry.check } : null
+}
+
+export function getTrueFalseTasks(nodeId) {
+  const entry = trueFalseData.find(t => t.nodeId === nodeId)
+  return entry ? entry.tasks : []
+}
+
 export function isDeepTopic(nodeId) {
   const node = getNode(nodeId)
   return node ? node.difficulty === 'deep' : false
@@ -163,7 +175,9 @@ const ContentService = {
   getDidYouKnow,
   getSimData,
   isDeepTopic,
-  getIllustration
+  getIllustration,
+  getRememberCheck,
+  getTrueFalseTasks
 }
 
 export default ContentService
