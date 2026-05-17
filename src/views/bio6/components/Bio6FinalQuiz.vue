@@ -4,13 +4,13 @@
 
     <div v-if="!finished">
       <div class="quiz-progress">
-        Вопрос {{ current + 1 }} из {{ questions.length }}
+        Вопрос {{ current + 1 }} из {{ shuffled.length }}
 
       </div>
-      <div class="quiz-question">{{ questions[current].text || questions[current].question }}</div>
+      <div class="quiz-question">{{ shuffled[current].text || shuffled[current].question }}</div>
       <div class="quiz-options">
         <button
-          v-for="(opt, i) in questions[current].options"
+          v-for="(opt, i) in shuffled[current].options"
           :key="i"
           class="quiz-option"
           :class="getOptionClass(i)"
@@ -24,7 +24,7 @@
       <transition name="fade">
         <div v-if="answered" class="quiz-feedback" :class="{ correct: lastCorrect, wrong: !lastCorrect }">
           <div class="fb-verdict">{{ lastCorrect ? '✓ Верно' : '✗ Не совсем' }}</div>
-          <div class="fb-text">{{ questions[current].explanation || questions[current].feedback }}</div>
+          <div class="fb-text">{{ shuffled[current].explanation || shuffled[current].feedback }}</div>
           <button class="fb-next" @click="next">
             {{ current < questions.length - 1 ? 'Следующий вопрос →' : 'Завершить →' }}
           </button>
@@ -34,16 +34,16 @@
 
     <div v-else class="quiz-result">
       <div class="result-emoji">{{ resultEmoji }}</div>
-      <div class="result-score">{{ score }} / {{ questions.length }}</div>
+      <div class="result-score">{{ score }} / {{ shuffled.length }}</div>
       <div class="result-label">{{ resultLabel }}</div>
-      <div class="result-pct">{{ Math.round((score / questions.length) * 100) }}% верных ответов</div>
+      <div class="result-pct">{{ Math.round((score / shuffled.length) * 100) }}% верных ответов</div>
       <button class="retry-btn" @click="restart">Попробовать ещё раз</button>
     </div>
   </div>
 </template>
 
 <script setup>
-import { ref, computed, watch } from 'vue'
+import { ref, computed } from 'vue'
 
 const props = defineProps({ questions: Array })
 const emit = defineEmits(['completed'])
@@ -55,24 +55,45 @@ const score = ref(0)
 const finished = ref(false)
 const selectedIdx = ref(null)
 
+function shuffleQuestion(q) {
+  const indices = q.options.map((_, i) => i)
+  for (let i = indices.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [indices[i], indices[j]] = [indices[j], indices[i]]
+  }
+  return {
+    ...q,
+    options: indices.map(i => q.options[i]),
+    correct: indices.indexOf(q.correct)
+  }
+}
+
+const shuffled = ref([])
+
+function buildShuffled() {
+  shuffled.value = props.questions.map(shuffleQuestion)
+}
+
+buildShuffled()
+
 function answer(i) {
   if (answered.value) return
   answered.value = true
   selectedIdx.value = i
-  const correct = i === props.questions[current.value].correct
+  const correct = i === shuffled.value[current.value].correct
   lastCorrect.value = correct
   if (correct) score.value++
 }
 
 function getOptionClass(i) {
   if (!answered.value) return ''
-  if (i === props.questions[current.value].correct) return 'correct'
+  if (i === shuffled.value[current.value].correct) return 'correct'
   if (i === selectedIdx.value && !lastCorrect.value) return 'wrong'
   return 'dimmed'
 }
 
 function next() {
-  if (current.value < props.questions.length - 1) {
+  if (current.value < shuffled.value.length - 1) {
     current.value++
     answered.value = false
     selectedIdx.value = null
@@ -83,6 +104,7 @@ function next() {
 }
 
 function restart() {
+  buildShuffled()
   current.value = 0
   answered.value = false
   lastCorrect.value = false
@@ -92,14 +114,14 @@ function restart() {
 }
 
 const resultEmoji = computed(() => {
-  const pct = score.value / props.questions.length
+  const pct = score.value / shuffled.value.length
   if (pct >= 0.8) return '🏆'
   if (pct >= 0.6) return '👍'
   return '📖'
 })
 
 const resultLabel = computed(() => {
-  const pct = score.value / props.questions.length
+  const pct = score.value / shuffled.value.length
   if (pct >= 0.8) return 'Отличный результат!'
   if (pct >= 0.6) return 'Хорошо, но есть что повторить.'
   return 'Советую перечитать конспект и попробовать снова.'
