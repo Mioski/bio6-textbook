@@ -1,12 +1,12 @@
-import courseFlow from '../../static/bio6/course-flow.json'
-import glossaryData from '../../static/bio6/glossary.json'
-import misconceptionsData from '../../static/bio6/misconceptions.json'
-import finalQuizData from '../../static/bio6/final-quiz.json'
-import sortTasksData from '../../static/bio6/sort-tasks.json'
-import matchTasksData from '../../static/bio6/match-tasks.json'
-import cheatsheetsData from '../../static/bio6/cheatsheets.json'
-import didYouKnowData from '../../static/bio6/did-you-know.json'
-import simData from '../../static/bio6/sim-data.json'
+import courseFlow from '@data/course-flow.json'
+import glossaryData from '@data/glossary.json'
+import misconceptionsData from '@data/misconceptions.json'
+import finalQuizData from '@data/final-quiz.json'
+import sortTasksData from '@data/sort-tasks.json'
+import matchTasksData from '@data/match-tasks.json'
+import cheatsheetsData from '@data/cheatsheets.json'
+import didYouKnowData from '@data/did-you-know.json'
+import simData from '@data/sim-data.json'
 
 const blocks = [
   { id: 'block1', title: 'Растительный организм', subtitle: 'Клетки, ткани, органы', emoji: '🔬' },
