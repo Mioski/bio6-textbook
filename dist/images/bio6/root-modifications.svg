@@ -14,9 +14,9 @@
   <!-- Lateral roots -->
   <line x1="50" y1="90"  x2="38" y2="98"  stroke="#e8a070" stroke-width="1"/>
   <line x1="64" y1="100" x2="76" y2="108" stroke="#e8a070" stroke-width="1"/>
-  <text x="57" y="148" text-anchor="middle" font-size="8" fill="#8b949e">запас питат. веществ</text>
-  <text x="57" y="158" text-anchor="middle" font-size="8" fill="#8b949e">в главном корне</text>
-  <text x="57" y="150" text-anchor="middle" font-size="7" fill="#e8a070">морковь, свёкла, репа</text>
+  <text x="57" y="148" text-anchor="middle" font-size="9" fill="#8b949e">запас питат. веществ</text>
+  <text x="57" y="158" text-anchor="middle" font-size="9" fill="#8b949e">в главном корне</text>
+  <text x="57" y="150" text-anchor="middle" font-size="9" fill="#e8a070">морковь, свёкла</text>
 
   <!-- 2. Воздушные корни (Aerial roots) - орхидея -->
   <rect x="127" y="26" width="105" height="135" rx="6" fill="#0a1a2a" stroke="#a8c5d8" stroke-width="1.5"/>
@@ -39,9 +39,9 @@
   </g>
   <!-- Orchid on branch -->
   <ellipse cx="179" cy="48" rx="12" ry="8" fill="#1a3a1a" stroke="#8cc882" stroke-width="1"/>
-  <text x="179" y="150" text-anchor="middle" font-size="8" fill="#8b949e">поглощают влагу</text>
-  <text x="179" y="160" text-anchor="middle" font-size="8" fill="#8b949e">из воздуха</text>
-  <text x="179" y="152" text-anchor="middle" font-size="7" fill="#a8c5d8">орхидея, плющ, монстера</text>
+  <text x="179" y="150" text-anchor="middle" font-size="9" fill="#8b949e">поглощают влагу</text>
+  <text x="179" y="160" text-anchor="middle" font-size="9" fill="#8b949e">из воздуха</text>
+  <text x="179" y="152" text-anchor="middle" font-size="9" fill="#a8c5d8">орхидея, плющ, монстера</text>
 
   <!-- 3. Корни-подпорки (Stilt roots) - кукуруза -->
   <rect x="249" y="26" width="105" height="135" rx="6" fill="#0a1a0a" stroke="#8cc882" stroke-width="1.5"/>
@@ -58,8 +58,8 @@
   <!-- Leaves -->
   <path d="M301,55 Q275,42 258,38" stroke="#8cc882" stroke-width="4" fill="none" stroke-linecap="round"/>
   <path d="M301,55 Q327,42 342,38" stroke="#8cc882" stroke-width="4" fill="none" stroke-linecap="round"/>
-  <text x="301" y="150" text-anchor="middle" font-size="8" fill="#8b949e">дополнит. опора стебля</text>
-  <text x="301" y="160" text-anchor="middle" font-size="7" fill="#8cc882">кукуруза, баньян, мангр</text>
+  <text x="301" y="150" text-anchor="middle" font-size="9" fill="#8b949e">опора стебля</text>
+  <text x="301" y="160" text-anchor="middle" font-size="9" fill="#8cc882">кукуруза, баньян</text>
 
   <!-- Bottom row: 2 more modifications -->
   <!-- 4. Микориза -->
@@ -73,15 +73,15 @@
     <path d="M85,235 Q70,228 55,240 Q42,250 48,265"/>
     <path d="M85,240 Q100,233 115,242 Q128,255 122,268"/>
   </g>
-  <text x="85" y="268" text-anchor="middle" font-size="8" fill="#8b949e">гриб ↔ корень: симбиоз</text>
-  <text x="85" y="278" text-anchor="middle" font-size="8" fill="#8b949e">гриб даёт минер. соли</text>
+  <text x="85" y="268" text-anchor="middle" font-size="9" fill="#8b949e">гриб ↔ корень: симбиоз</text>
+  <text x="85" y="278" text-anchor="middle" font-size="9" fill="#8b949e">гриб даёт минер. соли</text>
 
   <!-- 5. Дыхательные корни (Pneumatophores) -->
   <rect x="190" y="170" width="165" height="115" rx="6" fill="#0a1a1a" stroke="#8cc882" stroke-width="1.5"/>
   <text x="272" y="187" text-anchor="middle" font-size="9" fill="#8cc882">Дыхательные корни</text>
   <!-- Water level -->
   <line x1="200" y1="235" x2="350" y2="235" stroke="#a8c5d8" stroke-width="1.5" stroke-dasharray="4,3"/>
-  <text x="356" y="239" font-size="7" fill="#a8c5d8">H₂O</text>
+  <text x="348" y="239" font-size="9" fill="#a8c5d8">H₂O</text>
   <!-- Roots pointing up through water surface -->
   <path d="M230,275 L230,220" stroke="#e8a070" stroke-width="3" stroke-linecap="round"/>
   <path d="M255,275 L255,212" stroke="#e8a070" stroke-width="3" stroke-linecap="round"/>
@@ -94,7 +94,7 @@
   <circle cx="280" cy="216" r="5" fill="#0d1117" stroke="#8cc882" stroke-width="1.5"/>
   <circle cx="305" cy="206" r="5" fill="#0d1117" stroke="#8cc882" stroke-width="1.5"/>
   <circle cx="330" cy="213" r="5" fill="#0d1117" stroke="#8cc882" stroke-width="1.5"/>
-  <text x="272" y="268" text-anchor="middle" font-size="7" fill="#8b949e">выходят из воды вверх</text>
-  <text x="272" y="278" text-anchor="middle" font-size="7" fill="#8cc882">мангровые деревья</text>
+  <text x="272" y="268" text-anchor="middle" font-size="9" fill="#8b949e">выходят из воды вверх</text>
+  <text x="272" y="278" text-anchor="middle" font-size="9" fill="#8cc882">мангровые деревья</text>
   <text x="180" y="297" text-anchor="middle" font-size="11" fill="#8b949e">Видоизменения корней</text>
 </svg>

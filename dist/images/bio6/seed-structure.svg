@@ -11,10 +11,10 @@
   <rect x="172" y="108" width="16" height="80" rx="4" fill="#1e2a10" stroke="#8cc882" stroke-width="1.5"/>
   <!-- Radicle (корешок) -->
   <ellipse cx="180" cy="205" rx="10" ry="16" fill="#1a1a08" stroke="#e8a070" stroke-width="2"/>
-  <text x="180" y="210" text-anchor="middle" font-size="8" fill="#e8a070">корешок</text>
+  <text x="180" y="210" text-anchor="middle" font-size="9" fill="#e8a070">корешок</text>
   <!-- Plumule (почечка) -->
   <ellipse cx="180" cy="112" rx="8" ry="12" fill="#0a2a0a" stroke="#8cc882" stroke-width="2"/>
-  <text x="180" y="100" text-anchor="middle" font-size="8" fill="#8cc882">почечка</text>
+  <text x="180" y="100" text-anchor="middle" font-size="9" fill="#8cc882">почечка</text>
   <!-- Labels -->
   <line x1="30" y1="80" x2="125" y2="85" stroke="#8b949e" stroke-width="0.8"/>
   <text x="28" y="84" text-anchor="end" font-size="9" fill="#e8c891">кожура</text>
@@ -25,7 +25,7 @@
   <!-- Legend box -->
   <rect x="220" y="60" width="128" height="50" rx="5" fill="#111" stroke="#30363d" stroke-width="1"/>
   <text x="284" y="78" text-anchor="middle" font-size="9" fill="#e8c891" font-weight="600">Семя фасоли</text>
-  <text x="284" y="93" text-anchor="middle" font-size="8" fill="#8b949e">2 семядоли (двудольное)</text>
-  <text x="284" y="104" text-anchor="middle" font-size="8" fill="#8b949e">эндосперм поглощён</text>
+  <text x="284" y="93" text-anchor="middle" font-size="9" fill="#8b949e">2 семядоли (двудольное)</text>
+  <text x="284" y="104" text-anchor="middle" font-size="9" fill="#8b949e">эндосперм поглощён</text>
   <text x="180" y="285" text-anchor="middle" font-size="11" fill="#8b949e">Строение семени (фасоль)</text>
 </svg>

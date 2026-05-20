@@ -24,7 +24,7 @@
   <line x1="258" y1="103" x2="272" y2="97" stroke="#8cc882" stroke-width="1.5"/>
   <line x1="105" y1="57" x2="95" y2="45" stroke="#8cc882" stroke-width="1.5"/>
   <line x1="62" y1="103" x2="48" y2="97" stroke="#8cc882" stroke-width="1.5"/>
-  <text x="165" y="20" font-size="8" fill="#8cc882">корневой волосок</text>
+  <text x="165" y="20" font-size="9" fill="#8cc882">корневой волосок</text>
   <!-- Right-side labels -->
   <line x1="270" y1="97" x2="300" y2="90" stroke="#8b949e" stroke-width="0.8"/>
   <text x="302" y="93" font-size="9" fill="#8cc882">эпидермис</text>

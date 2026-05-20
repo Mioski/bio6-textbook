@@ -14,7 +14,7 @@
   <!-- Sun -->
   <circle cx="50" cy="45" r="25" fill="#3d3520" stroke="#e8c891" stroke-width="2"/>
   <text x="50" y="42" text-anchor="middle" font-size="16" fill="#e8c891">☀</text>
-  <text x="50" y="56" text-anchor="middle" font-size="8"  fill="#e8c891">свет</text>
+  <text x="50" y="56" text-anchor="middle" font-size="9"  fill="#e8c891">свет</text>
   <!-- Light rays to leaf -->
   <line x1="72" y1="55" x2="140" y2="90" stroke="#e8c891" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.7"/>
   <line x1="75" y1="45" x2="145" y2="70" stroke="#e8c891" stroke-width="1" stroke-dasharray="5,3" opacity="0.5"/>

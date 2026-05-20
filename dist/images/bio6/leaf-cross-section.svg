@@ -39,10 +39,10 @@
   <ellipse cx="175" cy="152" rx="25" ry="12" fill="#1e2a0e" stroke="#e8c891" stroke-width="1.5"/>
   <!-- Xylem (top of bundle) -->
   <ellipse cx="175" cy="147" rx="12" ry="6" fill="#1a1208" stroke="#e8a070" stroke-width="1"/>
-  <text x="175" y="150" text-anchor="middle" font-size="7" fill="#e8a070">кс</text>
+  <text x="175" y="150" text-anchor="middle" font-size="9" fill="#e8a070">кс</text>
   <!-- Phloem (bottom of bundle) -->
   <ellipse cx="175" cy="158" rx="10" ry="5" fill="#112211" stroke="#a8c5d8" stroke-width="1"/>
-  <text x="175" y="161" text-anchor="middle" font-size="7" fill="#a8c5d8">фл</text>
+  <text x="175" y="161" text-anchor="middle" font-size="9" fill="#a8c5d8">фл</text>
 
   <!-- Spongy mesophyll -->
   <rect x="60" y="128" width="240" height="50" fill="#0a1e0a" stroke="#30363d" stroke-width="1"/>
@@ -60,7 +60,7 @@
     <ellipse cx="265" cy="162" rx="13" ry="9"/>
   </g>
   <!-- Air spaces (intercellular) -->
-  <text x="175" y="168" text-anchor="middle" font-size="8" fill="#8b949e">межклетники</text>
+  <text x="175" y="168" text-anchor="middle" font-size="9" fill="#8b949e">межклетники</text>
 
   <!-- Lower epidermis with stomata -->
   <rect x="60" y="178" width="240" height="18" rx="4" fill="#1a2a1a" stroke="#a8c5d8" stroke-width="1.5"/>
@@ -82,13 +82,13 @@
   <text x="32" y="162" text-anchor="end" font-size="9" fill="#e8c891">мезофилл</text>
 
   <!-- Vein label right -->
-  <line x1="200" y1="152" x2="320" y2="135" stroke="#e8c891" stroke-width="1"/>
-  <text x="322" y="133" font-size="9" fill="#e8c891">жилка</text>
-  <text x="322" y="144" font-size="8" fill="#8b949e">(кс + фл)</text>
+  <line x1="200" y1="152" x2="310" y2="135" stroke="#e8c891" stroke-width="1"/>
+  <text x="312" y="133" font-size="9" fill="#e8c891">жилка</text>
+  <text x="312" y="144" font-size="9" fill="#8b949e">(кс + фл)</text>
 
   <!-- Stomata label right -->
-  <line x1="258" y1="187" x2="320" y2="200" stroke="#a8c5d8" stroke-width="1"/>
-  <text x="322" y="198" font-size="9" fill="#a8c5d8">устьице</text>
+  <line x1="258" y1="187" x2="310" y2="200" stroke="#a8c5d8" stroke-width="1"/>
+  <text x="312" y="198" font-size="9" fill="#a8c5d8">устьице</text>
 
   <text x="180" y="220" text-anchor="middle" font-size="11" fill="#8b949e">Поперечный срез листа</text>
 

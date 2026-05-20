@@ -7,31 +7,31 @@
   <!-- Семянка (achene) - подсолнечник -->
   <ellipse cx="45" cy="90" rx="12" ry="20" fill="#1a1a0a" stroke="#e8c891" stroke-width="1.5"/>
   <line x1="45" y1="70" x2="45" y2="60" stroke="#e8c891" stroke-width="1.5"/>
-  <text x="45" y="120" text-anchor="middle" font-size="8" fill="#8b949e">семянка</text>
-  <text x="45" y="130" text-anchor="middle" font-size="7" fill="#8b949e">(подсолнечник)</text>
+  <text x="45" y="120" text-anchor="middle" font-size="9" fill="#8b949e">семянка</text>
+  <text x="45" y="130" text-anchor="middle" font-size="9" fill="#8b949e">(подсолнечник)</text>
   <!-- Зерновка (caryopsis) -->
   <ellipse cx="110" cy="90" rx="10" ry="18" fill="#2a1a08" stroke="#e8c891" stroke-width="1.5"/>
   <line x1="110" y1="72" x2="110" y2="65" stroke="#8b949e" stroke-width="1"/>
-  <text x="110" y="120" text-anchor="middle" font-size="8" fill="#8b949e">зерновка</text>
-  <text x="110" y="130" text-anchor="middle" font-size="7" fill="#8b949e">(пшеница)</text>
+  <text x="110" y="120" text-anchor="middle" font-size="9" fill="#8b949e">зерновка</text>
+  <text x="110" y="130" text-anchor="middle" font-size="9" fill="#8b949e">(пшеница)</text>
   <!-- Боб (pod) -->
   <ellipse cx="175" cy="88" rx="28" ry="12" fill="#1a2a0a" stroke="#8cc882" stroke-width="1.5"/>
   <line x1="148" y1="88" x2="202" y2="88" stroke="#8cc882" stroke-width="1" stroke-dasharray="3,2"/>
   <circle cx="158" cy="88" r="5" fill="#2a3a1a" stroke="#8cc882" stroke-width="1"/>
   <circle cx="175" cy="88" r="5" fill="#2a3a1a" stroke="#8cc882" stroke-width="1"/>
   <circle cx="192" cy="88" r="5" fill="#2a3a1a" stroke="#8cc882" stroke-width="1"/>
-  <text x="175" y="112" text-anchor="middle" font-size="8" fill="#8b949e">боб</text>
-  <text x="175" y="122" text-anchor="middle" font-size="7" fill="#8b949e">(фасоль, горох)</text>
+  <text x="175" y="112" text-anchor="middle" font-size="9" fill="#8b949e">боб</text>
+  <text x="175" y="122" text-anchor="middle" font-size="9" fill="#8b949e">(фасоль, горох)</text>
   <!-- Стручок (silique) -->
   <rect x="228" y="73" width="14" height="34" rx="4" fill="#1a2a0a" stroke="#8cc882" stroke-width="1.5"/>
   <line x1="235" y1="73" x2="235" y2="107" stroke="#8cc882" stroke-width="1" stroke-dasharray="3,2"/>
-  <text x="235" y="120" text-anchor="middle" font-size="8" fill="#8b949e">стручок</text>
-  <text x="235" y="130" text-anchor="middle" font-size="7" fill="#8b949e">(капуста)</text>
+  <text x="235" y="120" text-anchor="middle" font-size="9" fill="#8b949e">стручок</text>
+  <text x="235" y="130" text-anchor="middle" font-size="9" fill="#8b949e">(капуста)</text>
   <!-- Орех (nut) -->
   <ellipse cx="308" cy="90" rx="18" ry="16" fill="#1a1208" stroke="#e8c891" stroke-width="2"/>
   <ellipse cx="308" cy="90" rx="10" ry="9" fill="#2a2008" stroke="#e8c891" stroke-width="1" stroke-dasharray="3,2"/>
-  <text x="308" y="116" text-anchor="middle" font-size="8" fill="#8b949e">орех</text>
-  <text x="308" y="126" text-anchor="middle" font-size="7" fill="#8b949e">(лещина)</text>
+  <text x="308" y="116" text-anchor="middle" font-size="9" fill="#8b949e">орех</text>
+  <text x="308" y="126" text-anchor="middle" font-size="9" fill="#8b949e">(лещина)</text>
 
   <!-- Сочные плоды / Fleshy fruits -->
   <line x1="20" y1="148" x2="340" y2="148" stroke="#30363d" stroke-width="1"/>
@@ -41,20 +41,20 @@
   <circle cx="47" cy="210" r="5" fill="#1a1a3a" stroke="#a8c5d8" stroke-width="1"/>
   <circle cx="63" cy="212" r="5" fill="#1a1a3a" stroke="#a8c5d8" stroke-width="1"/>
   <circle cx="55" cy="224" r="5" fill="#1a1a3a" stroke="#a8c5d8" stroke-width="1"/>
-  <text x="55" y="256" text-anchor="middle" font-size="8" fill="#8b949e">ягода</text>
-  <text x="55" y="266" text-anchor="middle" font-size="7" fill="#8b949e">(томат, виноград)</text>
+  <text x="55" y="256" text-anchor="middle" font-size="9" fill="#8b949e">ягода</text>
+  <text x="55" y="266" text-anchor="middle" font-size="9" fill="#8b949e">(томат, виноград)</text>
   <!-- Костянка (drupe) -->
   <ellipse cx="145" cy="218" rx="30" ry="26" fill="#3a0a0a" stroke="#e8a070" stroke-width="2"/>
   <ellipse cx="145" cy="218" rx="18" ry="14" fill="#2a1808" stroke="#e8c891" stroke-width="1.5"/>
   <ellipse cx="145" cy="218" rx="8" ry="6" fill="#1a1208" stroke="#e8c891" stroke-width="1"/>
-  <text x="145" y="256" text-anchor="middle" font-size="8" fill="#8b949e">костянка</text>
-  <text x="145" y="266" text-anchor="middle" font-size="7" fill="#8b949e">(слива, вишня)</text>
+  <text x="145" y="256" text-anchor="middle" font-size="9" fill="#8b949e">костянка</text>
+  <text x="145" y="266" text-anchor="middle" font-size="9" fill="#8b949e">(слива, вишня)</text>
   <!-- Яблоко (pome) -->
   <ellipse cx="240" cy="218" rx="32" ry="28" fill="#1a2a0a" stroke="#8cc882" stroke-width="2"/>
-  <text x="240" y="210" text-anchor="middle" font-size="8" fill="#8cc882">мякоть</text>
+  <text x="240" y="210" text-anchor="middle" font-size="9" fill="#8cc882">мякоть</text>
   <ellipse cx="240" cy="222" rx="14" ry="10" fill="#1a1208" stroke="#e8c891" stroke-width="1.5"/>
-  <text x="240" y="226" text-anchor="middle" font-size="7" fill="#e8c891">семена</text>
-  <text x="240" y="256" text-anchor="middle" font-size="8" fill="#8b949e">яблоко (ложный)</text>
-  <text x="240" y="266" text-anchor="middle" font-size="7" fill="#8b949e">(яблоня, груша)</text>
+  <text x="240" y="226" text-anchor="middle" font-size="9" fill="#e8c891">семена</text>
+  <text x="240" y="256" text-anchor="middle" font-size="9" fill="#8b949e">яблоко (ложный)</text>
+  <text x="240" y="266" text-anchor="middle" font-size="9" fill="#8b949e">(яблоня, груша)</text>
   <text x="180" y="285" text-anchor="middle" font-size="11" fill="#8b949e">Типы плодов покрытосеменных</text>
 </svg>

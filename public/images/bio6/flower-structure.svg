@@ -52,12 +52,12 @@
   <!-- Pistil (пестик) -->
   <!-- Stigma -->
   <ellipse cx="180" cy="158" rx="10" ry="6" fill="#2a1a0a" stroke="#e8c891" stroke-width="2"/>
-  <text x="180" y="162" text-anchor="middle" font-size="7" fill="#e8c891">рыльце</text>
+  <text x="180" y="162" text-anchor="middle" font-size="9" fill="#e8c891">рыльце</text>
   <!-- Style -->
   <rect x="177" y="163" width="6" height="20" rx="2" fill="#2a1a0a" stroke="#e8c891" stroke-width="1.5"/>
   <!-- Ovary -->
   <ellipse cx="180" cy="192" rx="14" ry="10" fill="#1a1208" stroke="#e8c891" stroke-width="2"/>
-  <text x="180" y="196" text-anchor="middle" font-size="7" fill="#e8c891">завязь</text>
+  <text x="180" y="196" text-anchor="middle" font-size="9" fill="#e8c891">завязь</text>
   <!-- Ovule dot inside -->
   <circle cx="180" cy="192" r="3" fill="#3d3520"/>
 
@@ -71,8 +71,8 @@
 
   <line x1="194" y1="160" x2="285" y2="195" stroke="#8b949e" stroke-width="1"/>
   <text x="287" y="193" font-size="10" fill="#a8c5d8">пестик</text>
-  <text x="287" y="205" font-size="8" fill="#8b949e">(рыльце+стол.+</text>
-  <text x="287" y="216" font-size="8" fill="#8b949e">завязь)</text>
+  <text x="287" y="205" font-size="9" fill="#8b949e">(рыльце+стол.+</text>
+  <text x="287" y="217" font-size="9" fill="#8b949e">завязь)</text>
 
   <line x1="130" y1="183" x2="75" y2="175" stroke="#8b949e" stroke-width="1"/>
   <text x="72" y="173" text-anchor="end" font-size="10" fill="#e8a070">лепесток</text>

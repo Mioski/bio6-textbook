@@ -16,26 +16,26 @@
   <ellipse cx="265" cy="90" rx="42" ry="32" fill="#21262d" stroke="#e8c891" stroke-width="2"/>
   <ellipse cx="265" cy="90" rx="20" ry="15" fill="#3d3520" stroke="#e8c891" stroke-width="1.5"/>
   <text x="265" y="86" text-anchor="middle" font-size="10" fill="#e8c891">ядро</text>
-  <text x="265" y="100" text-anchor="middle" font-size="8" fill="#8b949e">ядрышко</text>
+  <text x="265" y="100" text-anchor="middle" font-size="9" fill="#8b949e">ядрышко</text>
 
   <!-- Chloroplasts -->
   <ellipse cx="290" cy="170" rx="22" ry="13" fill="#1a4a1a" stroke="#8cc882" stroke-width="1.5"/>
-  <text x="290" y="174" text-anchor="middle" font-size="8" fill="#8cc882">хлп</text>
+  <text x="290" y="174" text-anchor="middle" font-size="9" fill="#8cc882">хлп</text>
   <ellipse cx="255" cy="220" rx="22" ry="13" fill="#1a4a1a" stroke="#8cc882" stroke-width="1.5"/>
-  <text x="255" y="224" text-anchor="middle" font-size="8" fill="#8cc882">хлп</text>
+  <text x="255" y="224" text-anchor="middle" font-size="9" fill="#8cc882">хлп</text>
   <ellipse cx="300" cy="240" rx="22" ry="13" fill="#1a4a1a" stroke="#8cc882" stroke-width="1.5"/>
-  <text x="300" y="244" text-anchor="middle" font-size="8" fill="#8cc882">хлп</text>
+  <text x="300" y="244" text-anchor="middle" font-size="9" fill="#8cc882">хлп</text>
 
   <!-- Mitochondria -->
   <ellipse cx="75" cy="80" rx="18" ry="10" fill="#3a1a0a" stroke="#e8a070" stroke-width="1.5"/>
-  <text x="75" y="84" text-anchor="middle" font-size="7" fill="#e8a070">митх</text>
+  <text x="75" y="84" text-anchor="middle" font-size="9" fill="#e8a070">митх</text>
   <ellipse cx="75" cy="230" rx="18" ry="10" fill="#3a1a0a" stroke="#e8a070" stroke-width="1.5"/>
-  <text x="75" y="234" text-anchor="middle" font-size="7" fill="#e8a070">митх</text>
+  <text x="75" y="234" text-anchor="middle" font-size="9" fill="#e8a070">митх</text>
 
   <!-- Labels: cell wall, membrane -->
   <line x1="30" y1="150" x2="10" y2="150" stroke="#8cc882" stroke-width="1"/>
-  <text x="8" y="140" text-anchor="middle" font-size="9" fill="#8cc882">клеточная</text>
-  <text x="8" y="152" text-anchor="middle" font-size="9" fill="#8cc882">стенка</text>
+  <text x="15" y="140" text-anchor="start" font-size="9" fill="#8cc882">клеточная</text>
+  <text x="15" y="152" text-anchor="start" font-size="9" fill="#8cc882">стенка</text>
 
   <!-- Title -->
   <text x="180" y="295" text-anchor="middle" font-size="11" fill="#8b949e">Растительная клетка</text>

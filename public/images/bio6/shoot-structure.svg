@@ -7,8 +7,8 @@
   <ellipse cx="177" cy="160" rx="14" ry="6" fill="#1a3a1a" stroke="#8cc882" stroke-width="2"/>
   <ellipse cx="177" cy="230" rx="14" ry="6" fill="#1a3a1a" stroke="#8cc882" stroke-width="2"/>
   <!-- Internodes labels -->
-  <text x="195" y="130" font-size="8" fill="#8b949e">меж-</text>
-  <text x="195" y="141" font-size="8" fill="#8b949e">доузлие</text>
+  <text x="195" y="130" font-size="9" fill="#8b949e">меж-</text>
+  <text x="195" y="141" font-size="9" fill="#8b949e">доузлие</text>
   <!-- Apical bud -->
   <ellipse cx="177" cy="50" rx="12" ry="18" fill="#2a3a1a" stroke="#e8c891" stroke-width="2"/>
   <text x="177" y="32" text-anchor="middle" font-size="9" fill="#e8c891">верхушечная</text>
