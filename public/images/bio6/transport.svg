@@ -58,12 +58,12 @@
   <line x1="192" y1="180" x2="227" y2="180" stroke="#a8c5d8" stroke-width="1" stroke-dasharray="3,2"/>
 
   <!-- Root absorption -->
-  <text x="48"  y="298" font-size="11" fill="#8b949e">почва: H₂O+соли</text>
-  <line x1="112" y1="296" x2="155" y2="285" stroke="#e8a070" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="8" y="298" font-size="11" fill="#8b949e">почва: H₂O+соли</text>
+  <line x1="94" y1="296" x2="155" y2="285" stroke="#e8a070" stroke-width="1" stroke-dasharray="3,2"/>
 
-  <!-- Leaf transpiration -->
-  <text x="256" y="50" font-size="11" fill="#8b949e">транспирация</text>
-  <line x1="254" y1="53" x2="250" y2="52" stroke="#a8c5d8" stroke-width="1" stroke-dasharray="3,2"/>
+  <!-- Leaf transpiration — text-anchor="end" so it doesn't clip right edge -->
+  <text x="352" y="42" text-anchor="end" font-size="11" fill="#8b949e">транспирация</text>
+  <line x1="352" y1="44" x2="258" y2="46" stroke="#a8c5d8" stroke-width="1" stroke-dasharray="3,2"/>
 
   <!-- Xylem / Phloem tags -->
   <text x="155" y="145" text-anchor="end" font-size="11" fill="#e8a070">ксилема</text>
@@ -78,5 +78,5 @@
     </marker>
   </defs>
 
-  <text x="180" y="315" text-anchor="middle" font-size="11" fill="#8b949e" textLength="340" lengthAdjust="spacing">Транспорт веществ в растении</text>
+  <text x="180" y="315" text-anchor="middle" font-size="11" fill="#8b949e">Транспорт веществ в растении</text>
 </svg>

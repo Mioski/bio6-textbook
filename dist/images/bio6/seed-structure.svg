@@ -9,24 +9,32 @@
   <line x1="180" y1="62" x2="180" y2="234" stroke="#e8c891" stroke-width="1" stroke-dasharray="4,3"/>
   <!-- Embryo axis (зародышевая ось) -->
   <rect x="172" y="108" width="16" height="80" rx="4" fill="#1e2a10" stroke="#8cc882" stroke-width="1.5"/>
-  <!-- Radicle (корешок) -->
+  <!-- Radicle (корешок) — no inline label -->
   <ellipse cx="180" cy="205" rx="10" ry="16" fill="#1a1a08" stroke="#e8a070" stroke-width="2"/>
-  <text x="180" y="210" text-anchor="middle" font-size="11" fill="#e8a070">корешок</text>
   <!-- Plumule (почечка) -->
   <ellipse cx="180" cy="112" rx="8" ry="12" fill="#0a2a0a" stroke="#8cc882" stroke-width="2"/>
   <text x="180" y="100" text-anchor="middle" font-size="11" fill="#8cc882">почечка</text>
-  <!-- Labels left side -->
-  <line x1="32" y1="80" x2="125" y2="85" stroke="#8b949e" stroke-width="0.8"/>
-  <text x="30" y="78" text-anchor="end" font-size="11" fill="#e8c891">кожура</text>
-  <line x1="32" y1="108" x2="110" y2="130" stroke="#8b949e" stroke-width="0.8"/>
-  <text x="30" y="106" text-anchor="end" font-size="11" fill="#8cc882">семядоля</text>
-  <line x1="32" y1="148" x2="170" y2="148" stroke="#8b949e" stroke-width="0.8"/>
-  <text x="30" y="140" text-anchor="end" font-size="11" fill="#8cc882">зародышевый</text>
-  <text x="30" y="153" text-anchor="end" font-size="11" fill="#8cc882">стебелёк</text>
+
+  <!-- Left side labels — text-anchor="start" at x=5 so text flows rightward (no left-edge clip) -->
+  <line x1="48" y1="79" x2="71" y2="85" stroke="#8b949e" stroke-width="0.8"/>
+  <text x="5" y="78" font-size="11" fill="#e8c891">кожура</text>
+
+  <line x1="60" y1="108" x2="97" y2="125" stroke="#8b949e" stroke-width="0.8"/>
+  <text x="5" y="107" font-size="11" fill="#8cc882">семядоля</text>
+
+  <line x1="80" y1="147" x2="172" y2="147" stroke="#8b949e" stroke-width="0.8"/>
+  <text x="5" y="140" font-size="11" fill="#8cc882">зародышевый</text>
+  <text x="5" y="153" font-size="11" fill="#8cc882">стебелёк</text>
+
+  <!-- корешок — external right-side label (seed right edge at y=210 ≈ x=260) -->
+  <line x1="190" y1="210" x2="256" y2="210" stroke="#e8a070" stroke-width="0.8"/>
+  <text x="258" y="214" font-size="11" fill="#e8a070">корешок</text>
+
   <!-- Legend box -->
   <rect x="220" y="58" width="132" height="52" rx="5" fill="#111" stroke="#30363d" stroke-width="1"/>
   <text x="286" y="76" text-anchor="middle" font-size="11" fill="#e8c891" font-weight="600">Семя фасоли</text>
   <text x="286" y="91" text-anchor="middle" font-size="11" fill="#8b949e">2 семядоли</text>
   <text x="286" y="104" text-anchor="middle" font-size="11" fill="#8b949e">эндосперм поглощён</text>
+
   <text x="180" y="285" text-anchor="middle" font-size="11" fill="#8b949e">Строение семени (фасоль)</text>
 </svg>
