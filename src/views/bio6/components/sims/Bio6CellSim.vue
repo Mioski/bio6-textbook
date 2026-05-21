@@ -101,8 +101,8 @@
         </g>
 
         <!-- Layer labels -->
-        <text x="23" y="17" fill="#8ab870" font-size="9" font-family="sans-serif">Оболочка</text>
-        <text x="155" y="148" text-anchor="middle" fill="#6090c0" font-size="9" font-family="sans-serif">Вакуоль</text>
+        <text x="26" y="38" fill="#8ab870" font-size="11" font-family="sans-serif">Оболочка</text>
+        <text x="160" y="190" text-anchor="middle" fill="#6090c0" font-size="11" font-family="sans-serif">Вакуоль</text>
       </svg>
     </div>
 

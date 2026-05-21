@@ -1,40 +1,49 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 300" font-family="system-ui,sans-serif">
   <rect width="360" height="300" fill="#0d1117"/>
+
   <!-- Main stem -->
-  <rect x="168" y="40" width="18" height="220" rx="5" fill="#1a2a1a" stroke="#8cc882" stroke-width="1.5"/>
+  <rect x="171" y="40" width="18" height="220" rx="5" fill="#1a2a1a" stroke="#8cc882" stroke-width="1.5"/>
+
   <!-- Nodes (узлы) -->
-  <ellipse cx="177" cy="90" rx="14" ry="6" fill="#1a3a1a" stroke="#8cc882" stroke-width="2"/>
-  <ellipse cx="177" cy="160" rx="14" ry="6" fill="#1a3a1a" stroke="#8cc882" stroke-width="2"/>
-  <ellipse cx="177" cy="230" rx="14" ry="6" fill="#1a3a1a" stroke="#8cc882" stroke-width="2"/>
+  <ellipse cx="180" cy="92" rx="14" ry="6" fill="#1a3a1a" stroke="#8cc882" stroke-width="2"/>
+  <ellipse cx="180" cy="162" rx="14" ry="6" fill="#1a3a1a" stroke="#8cc882" stroke-width="2"/>
+  <ellipse cx="180" cy="232" rx="14" ry="6" fill="#1a3a1a" stroke="#8cc882" stroke-width="2"/>
+
   <!-- Apical bud -->
-  <ellipse cx="177" cy="50" rx="12" ry="18" fill="#2a3a1a" stroke="#e8c891" stroke-width="2"/>
-  <text x="177" y="29" text-anchor="middle" font-size="11" fill="#e8c891">верхушечная</text>
-  <text x="177" y="20" text-anchor="middle" font-size="11" fill="#e8c891">почка</text>
-  <!-- Axillary buds (пазушные почки) -->
-  <ellipse cx="155" cy="90" rx="10" ry="7" fill="#1a2a0a" stroke="#8cc882" stroke-width="1.5"/>
-  <ellipse cx="199" cy="90" rx="10" ry="7" fill="#1a2a0a" stroke="#8cc882" stroke-width="1.5"/>
-  <ellipse cx="155" cy="160" rx="10" ry="7" fill="#1a2a0a" stroke="#8cc882" stroke-width="1.5"/>
-  <ellipse cx="199" cy="160" rx="10" ry="7" fill="#1a2a0a" stroke="#8cc882" stroke-width="1.5"/>
-  <!-- Leaves at nodes -->
-  <ellipse cx="128" cy="95" rx="22" ry="10" fill="#1a3a1a" stroke="#8cc882" stroke-width="1.5" transform="rotate(-20,128,95)"/>
-  <ellipse cx="226" cy="95" rx="22" ry="10" fill="#1a3a1a" stroke="#8cc882" stroke-width="1.5" transform="rotate(20,226,95)"/>
-  <ellipse cx="128" cy="165" rx="22" ry="10" fill="#1a3a1a" stroke="#8cc882" stroke-width="1.5" transform="rotate(-20,128,165)"/>
-  <ellipse cx="226" cy="165" rx="22" ry="10" fill="#1a3a1a" stroke="#8cc882" stroke-width="1.5" transform="rotate(20,226,165)"/>
-  <!-- Leaf stalks -->
-  <line x1="155" y1="90" x2="143" y2="92" stroke="#8cc882" stroke-width="2"/>
-  <line x1="199" y1="90" x2="211" y2="92" stroke="#8cc882" stroke-width="2"/>
-  <line x1="155" y1="160" x2="143" y2="162" stroke="#8cc882" stroke-width="2"/>
-  <line x1="199" y1="160" x2="211" y2="162" stroke="#8cc882" stroke-width="2"/>
-  <!-- Labels left -->
-  <line x1="80" y1="90" x2="142" y2="90" stroke="#8b949e" stroke-width="0.8"/>
-  <text x="78" y="88" text-anchor="end" font-size="11" fill="#8cc882">узел</text>
-  <line x1="80" y1="107" x2="145" y2="93" stroke="#8b949e" stroke-width="0.8"/>
-  <text x="78" y="112" text-anchor="end" font-size="11" fill="#8cc882">пазушная почка</text>
-  <line x1="80" y1="122" x2="128" y2="101" stroke="#8b949e" stroke-width="0.8"/>
-  <text x="78" y="126" text-anchor="end" font-size="11" fill="#8cc882">лист</text>
-  <!-- Label: internode right -->
-  <line x1="282" y1="125" x2="210" y2="125" stroke="#8b949e" stroke-width="0.8"/>
-  <text x="285" y="121" font-size="11" fill="#8b949e">между-</text>
-  <text x="285" y="134" font-size="11" fill="#8b949e">доузлие</text>
+  <ellipse cx="180" cy="52" rx="12" ry="18" fill="#2a3a1a" stroke="#e8c891" stroke-width="2"/>
+  <text x="180" y="28" text-anchor="middle" font-size="11" fill="#e8c891">почка</text>
+  <text x="180" y="19" text-anchor="middle" font-size="11" fill="#e8c891">верхушечная</text>
+
+  <!-- Axillary buds -->
+  <ellipse cx="158" cy="92" rx="10" ry="7" fill="#1a2a0a" stroke="#8cc882" stroke-width="1.5"/>
+  <ellipse cx="202" cy="92" rx="10" ry="7" fill="#1a2a0a" stroke="#8cc882" stroke-width="1.5"/>
+  <ellipse cx="158" cy="162" rx="10" ry="7" fill="#1a2a0a" stroke="#8cc882" stroke-width="1.5"/>
+  <ellipse cx="202" cy="162" rx="10" ry="7" fill="#1a2a0a" stroke="#8cc882" stroke-width="1.5"/>
+
+  <!-- Leaves -->
+  <ellipse cx="128" cy="97" rx="22" ry="10" fill="#1a3a1a" stroke="#8cc882" stroke-width="1.5" transform="rotate(-20,128,97)"/>
+  <ellipse cx="232" cy="97" rx="22" ry="10" fill="#1a3a1a" stroke="#8cc882" stroke-width="1.5" transform="rotate(20,232,97)"/>
+  <ellipse cx="128" cy="167" rx="22" ry="10" fill="#1a3a1a" stroke="#8cc882" stroke-width="1.5" transform="rotate(-20,128,167)"/>
+  <ellipse cx="232" cy="167" rx="22" ry="10" fill="#1a3a1a" stroke="#8cc882" stroke-width="1.5" transform="rotate(20,232,167)"/>
+
+  <!-- Left labels — text-anchor="end" at x=105 gives 105px max width, enough for all labels -->
+  <!-- узел -->
+  <line x1="105" y1="92" x2="148" y2="92" stroke="#8b949e" stroke-width="0.8"/>
+  <text x="103" y="96" text-anchor="end" font-size="11" fill="#8cc882">узел</text>
+
+  <!-- пазушная почка — split 2 lines, text-anchor="end" x=103 -->
+  <line x1="105" y1="108" x2="148" y2="95" stroke="#8b949e" stroke-width="0.8"/>
+  <text x="103" y="106" text-anchor="end" font-size="11" fill="#8cc882">пазушная</text>
+  <text x="103" y="119" text-anchor="end" font-size="11" fill="#8cc882">почка</text>
+
+  <!-- лист -->
+  <line x1="105" y1="133" x2="125" y2="104" stroke="#8b949e" stroke-width="0.8"/>
+  <text x="103" y="137" text-anchor="end" font-size="11" fill="#8cc882">лист</text>
+
+  <!-- Right label: междоузлие -->
+  <line x1="255" y1="127" x2="218" y2="127" stroke="#8b949e" stroke-width="0.8"/>
+  <text x="257" y="123" font-size="11" fill="#8b949e" text-anchor="start">между-</text>
+  <text x="257" y="136" font-size="11" fill="#8b949e" text-anchor="start">доузлие</text>
+
   <text x="180" y="285" text-anchor="middle" font-size="11" fill="#8b949e">Строение побега</text>
 </svg>

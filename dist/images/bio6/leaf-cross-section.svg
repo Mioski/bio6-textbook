@@ -1,96 +1,90 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 280" font-family="system-ui,sans-serif">
   <rect width="360" height="280" fill="#0d1117"/>
 
-  <!-- Leaf cross-section block -->
+  <!-- Cross-section block shifted right to x=90 to give left labels room -->
   <!-- Upper epidermis -->
-  <rect x="60" y="50" width="240" height="18" rx="4" fill="#1a2a1a" stroke="#8cc882" stroke-width="1.5"/>
-  <text x="180" y="63" text-anchor="middle" font-size="11" fill="#8cc882">Верхняя эпидерма</text>
+  <rect x="90" y="45" width="210" height="18" rx="4" fill="#1a2a1a" stroke="#8cc882" stroke-width="1.5"/>
+  <text x="195" y="58" text-anchor="middle" font-size="11" fill="#8cc882">Верхняя эпидерма</text>
 
   <!-- Palisade mesophyll -->
-  <rect x="60" y="68" width="240" height="60" fill="#0f2a0f" stroke="#30363d" stroke-width="1"/>
-  <!-- Palisade cells (vertical rectangles with chloroplasts) -->
+  <rect x="90" y="63" width="210" height="58" fill="#0f2a0f" stroke="#30363d" stroke-width="1"/>
   <g fill="#1a4a1a" stroke="#8cc882" stroke-width="0.8">
-    <rect x="70"  y="72" width="18" height="50" rx="3"/>
-    <rect x="92"  y="72" width="18" height="50" rx="3"/>
-    <rect x="114" y="72" width="18" height="50" rx="3"/>
-    <rect x="136" y="72" width="18" height="50" rx="3"/>
-    <rect x="158" y="72" width="18" height="50" rx="3"/>
-    <rect x="180" y="72" width="18" height="50" rx="3"/>
-    <rect x="202" y="72" width="18" height="50" rx="3"/>
-    <rect x="224" y="72" width="18" height="50" rx="3"/>
-    <rect x="246" y="72" width="18" height="50" rx="3"/>
-    <rect x="268" y="72" width="18" height="50" rx="3"/>
+    <rect x="96"  y="67" width="16" height="48" rx="2"/>
+    <rect x="115" y="67" width="16" height="48" rx="2"/>
+    <rect x="134" y="67" width="16" height="48" rx="2"/>
+    <rect x="153" y="67" width="16" height="48" rx="2"/>
+    <rect x="172" y="67" width="16" height="48" rx="2"/>
+    <rect x="191" y="67" width="16" height="48" rx="2"/>
+    <rect x="210" y="67" width="16" height="48" rx="2"/>
+    <rect x="229" y="67" width="16" height="48" rx="2"/>
+    <rect x="248" y="67" width="16" height="48" rx="2"/>
+    <rect x="267" y="67" width="16" height="48" rx="2"/>
   </g>
-  <!-- Chloroplast dots in palisade -->
   <g fill="#8cc882" opacity="0.6">
-    <circle cx="79"  cy="82" r="3"/> <circle cx="79"  cy="96" r="3"/> <circle cx="79"  cy="110" r="3"/>
-    <circle cx="101" cy="85" r="3"/> <circle cx="101" cy="99" r="3"/> <circle cx="101" cy="113" r="3"/>
-    <circle cx="123" cy="82" r="3"/> <circle cx="123" cy="96" r="3"/> <circle cx="123" cy="110" r="3"/>
-    <circle cx="145" cy="85" r="3"/> <circle cx="145" cy="99" r="3"/> <circle cx="145" cy="113" r="3"/>
-    <circle cx="167" cy="82" r="3"/> <circle cx="167" cy="96" r="3"/> <circle cx="167" cy="110" r="3"/>
-    <circle cx="189" cy="85" r="3"/> <circle cx="189" cy="99" r="3"/> <circle cx="189" cy="113" r="3"/>
-    <circle cx="211" cy="82" r="3"/> <circle cx="211" cy="96" r="3"/> <circle cx="211" cy="110" r="3"/>
-    <circle cx="233" cy="85" r="3"/> <circle cx="233" cy="99" r="3"/> <circle cx="233" cy="113" r="3"/>
-    <circle cx="255" cy="82" r="3"/> <circle cx="255" cy="96" r="3"/> <circle cx="255" cy="110" r="3"/>
-    <circle cx="277" cy="85" r="3"/> <circle cx="277" cy="99" r="3"/> <circle cx="277" cy="113" r="3"/>
+    <circle cx="104" cy="77" r="3"/> <circle cx="104" cy="91" r="3"/> <circle cx="104" cy="105" r="3"/>
+    <circle cx="123" cy="80" r="3"/> <circle cx="123" cy="94" r="3"/> <circle cx="123" cy="107" r="3"/>
+    <circle cx="142" cy="77" r="3"/> <circle cx="142" cy="91" r="3"/> <circle cx="142" cy="105" r="3"/>
+    <circle cx="161" cy="80" r="3"/> <circle cx="161" cy="94" r="3"/> <circle cx="161" cy="107" r="3"/>
+    <circle cx="180" cy="77" r="3"/> <circle cx="180" cy="91" r="3"/> <circle cx="180" cy="105" r="3"/>
+    <circle cx="199" cy="80" r="3"/> <circle cx="199" cy="94" r="3"/> <circle cx="199" cy="107" r="3"/>
+    <circle cx="218" cy="77" r="3"/> <circle cx="218" cy="91" r="3"/> <circle cx="218" cy="105" r="3"/>
+    <circle cx="237" cy="80" r="3"/> <circle cx="237" cy="94" r="3"/> <circle cx="237" cy="107" r="3"/>
+    <circle cx="256" cy="77" r="3"/> <circle cx="256" cy="91" r="3"/> <circle cx="256" cy="105" r="3"/>
+    <circle cx="275" cy="80" r="3"/> <circle cx="275" cy="94" r="3"/> <circle cx="275" cy="107" r="3"/>
   </g>
 
   <!-- Vascular bundle (жилка) -->
-  <ellipse cx="180" cy="152" rx="25" ry="12" fill="#1e2a0e" stroke="#e8c891" stroke-width="1.5"/>
-  <!-- Xylem (top of bundle) -->
-  <ellipse cx="180" cy="147" rx="12" ry="6" fill="#1a1208" stroke="#e8a070" stroke-width="1"/>
-  <text x="180" y="150" text-anchor="middle" font-size="11" fill="#e8a070">кс</text>
-  <!-- Phloem (bottom of bundle) -->
-  <ellipse cx="180" cy="158" rx="10" ry="5" fill="#112211" stroke="#a8c5d8" stroke-width="1"/>
-  <text x="180" y="161" text-anchor="middle" font-size="11" fill="#a8c5d8">фл</text>
+  <ellipse cx="195" cy="148" rx="25" ry="12" fill="#1e2a0e" stroke="#e8c891" stroke-width="1.5"/>
+  <ellipse cx="195" cy="143" rx="12" ry="6" fill="#1a1208" stroke="#e8a070" stroke-width="1"/>
+  <text x="195" y="146" text-anchor="middle" font-size="11" fill="#e8a070">кс</text>
+  <ellipse cx="195" cy="155" rx="10" ry="5" fill="#112211" stroke="#a8c5d8" stroke-width="1"/>
+  <text x="195" y="158" text-anchor="middle" font-size="11" fill="#a8c5d8">фл</text>
 
   <!-- Spongy mesophyll -->
-  <rect x="60" y="128" width="240" height="50" fill="#0a1e0a" stroke="#30363d" stroke-width="1"/>
-  <!-- Spongy cells (irregular, with air spaces) -->
+  <rect x="90" y="121" width="210" height="50" fill="#0a1e0a" stroke="#30363d" stroke-width="1"/>
   <g fill="#112211" stroke="#8cc882" stroke-width="0.8" opacity="0.7">
-    <ellipse cx="85"  cy="148" rx="14" ry="9"/>
-    <ellipse cx="120" cy="142" rx="12" ry="8"/>
-    <ellipse cx="148" cy="152" rx="13" ry="8"/>
-    <ellipse cx="215" cy="144" rx="13" ry="9"/>
-    <ellipse cx="248" cy="150" rx="14" ry="8"/>
-    <ellipse cx="280" cy="143" rx="12" ry="9"/>
-    <ellipse cx="90"  cy="164" rx="11" ry="8"/>
-    <ellipse cx="128" cy="168" rx="13" ry="8"/>
-    <ellipse cx="225" cy="166" rx="12" ry="8"/>
-    <ellipse cx="265" cy="162" rx="13" ry="9"/>
+    <ellipse cx="112" cy="143" rx="14" ry="9"/>
+    <ellipse cx="148" cy="137" rx="12" ry="8"/>
+    <ellipse cx="172" cy="148" rx="13" ry="8"/>
+    <ellipse cx="228" cy="139" rx="13" ry="9"/>
+    <ellipse cx="262" cy="146" rx="14" ry="8"/>
+    <ellipse cx="288" cy="138" rx="12" ry="9"/>
+    <ellipse cx="116" cy="160" rx="11" ry="7"/>
+    <ellipse cx="155" cy="163" rx="13" ry="7"/>
+    <ellipse cx="238" cy="161" rx="12" ry="7"/>
+    <ellipse cx="275" cy="158" rx="13" ry="8"/>
   </g>
-  <!-- Air spaces (intercellular) -->
-  <text x="180" y="168" text-anchor="middle" font-size="11" fill="#8b949e">межклетники</text>
+  <text x="195" y="162" text-anchor="middle" font-size="11" fill="#8b949e">межклетники</text>
 
   <!-- Lower epidermis with stomata -->
-  <rect x="60" y="178" width="240" height="18" rx="4" fill="#1a2a1a" stroke="#a8c5d8" stroke-width="1.5"/>
-  <!-- Stomata openings -->
-  <ellipse cx="100" cy="187" rx="6" ry="3" fill="#0d1117" stroke="#a8c5d8" stroke-width="1"/>
-  <ellipse cx="180" cy="187" rx="6" ry="3" fill="#0d1117" stroke="#a8c5d8" stroke-width="1"/>
-  <ellipse cx="260" cy="187" rx="6" ry="3" fill="#0d1117" stroke="#a8c5d8" stroke-width="1"/>
-  <text x="180" y="191" text-anchor="middle" font-size="11" fill="#a8c5d8">Нижняя эпидерма (устьица)</text>
+  <rect x="90" y="171" width="210" height="18" rx="4" fill="#1a2a1a" stroke="#a8c5d8" stroke-width="1.5"/>
+  <ellipse cx="125" cy="180" rx="6" ry="3" fill="#0d1117" stroke="#a8c5d8" stroke-width="1"/>
+  <ellipse cx="195" cy="180" rx="6" ry="3" fill="#0d1117" stroke="#a8c5d8" stroke-width="1"/>
+  <ellipse cx="265" cy="180" rx="6" ry="3" fill="#0d1117" stroke="#a8c5d8" stroke-width="1"/>
+  <text x="195" y="184" text-anchor="middle" font-size="11" fill="#a8c5d8" textLength="186" lengthAdjust="spacing">Нижняя эпидерма (устьица)</text>
 
-  <!-- Labels left -->
-  <line x1="60" y1="98"  x2="38" y2="98"  stroke="#8b949e" stroke-width="1"/>
-  <text x="35" y="94"  text-anchor="end" font-size="11" fill="#8cc882">пали-</text>
-  <text x="35" y="107" text-anchor="end" font-size="11" fill="#8cc882">садный</text>
+  <!-- LEFT labels — text-anchor="start" at x=5, leader to x=90 -->
+  <!-- Palisade -->
+  <line x1="78" y1="92" x2="90" y2="92" stroke="#8b949e" stroke-width="1"/>
+  <text x="5"  y="85"  text-anchor="start" font-size="11" fill="#8cc882">пализадный</text>
+  <text x="5"  y="98"  text-anchor="start" font-size="11" fill="#8cc882">мезофилл</text>
 
-  <line x1="60" y1="153" x2="38" y2="153" stroke="#8b949e" stroke-width="1"/>
-  <text x="35" y="149" text-anchor="end" font-size="11" fill="#e8c891">губчатый</text>
-  <text x="35" y="162" text-anchor="end" font-size="11" fill="#e8c891">мезофилл</text>
+  <!-- Spongy -->
+  <line x1="78" y1="146" x2="90" y2="146" stroke="#8b949e" stroke-width="1"/>
+  <text x="5"  y="139" text-anchor="start" font-size="11" fill="#e8c891">губчатый</text>
+  <text x="5"  y="152" text-anchor="start" font-size="11" fill="#e8c891">мезофилл</text>
 
-  <!-- Vein label right — moved to safe x position -->
-  <line x1="205" y1="152" x2="302" y2="135" stroke="#e8c891" stroke-width="1"/>
-  <text x="304" y="133" font-size="11" fill="#e8c891">жилка</text>
-  <text x="304" y="146" font-size="11" fill="#8b949e">(кс+фл)</text>
+  <!-- RIGHT labels — text-anchor="start" at x=307 (cross-section right edge 300 + 7) -->
+  <line x1="220" y1="143" x2="302" y2="130" stroke="#e8c891" stroke-width="1"/>
+  <text x="304" y="128" font-size="11" fill="#e8c891" text-anchor="start">жилка</text>
+  <text x="304" y="141" font-size="11" fill="#8b949e" text-anchor="start">(кс+фл)</text>
 
-  <!-- Stomata label right -->
-  <line x1="266" y1="187" x2="302" y2="200" stroke="#a8c5d8" stroke-width="1"/>
-  <text x="304" y="200" font-size="11" fill="#a8c5d8">устьице</text>
+  <line x1="271" y1="180" x2="302" y2="196" stroke="#a8c5d8" stroke-width="1"/>
+  <text x="304" y="196" font-size="11" fill="#a8c5d8" text-anchor="start">устьице</text>
 
-  <text x="180" y="222" text-anchor="middle" font-size="11" fill="#8b949e">Поперечный срез листа</text>
+  <text x="195" y="218" text-anchor="middle" font-size="11" fill="#8b949e">Поперечный срез листа</text>
 
-  <!-- Arrows CO2/O2 -->
-  <text x="20"  y="215" font-size="11" fill="#a8c5d8">CO₂ →</text>
-  <text x="308" y="215" font-size="11" fill="#8cc882">← O₂</text>
+  <!-- CO2 / O2 arrows -->
+  <text x="5"   y="237" font-size="11" fill="#a8c5d8">CO₂ →</text>
+  <text x="310" y="237" font-size="11" fill="#8cc882">← O₂</text>
 </svg>
