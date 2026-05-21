@@ -6,13 +6,10 @@
   <ellipse cx="177" cy="90" rx="14" ry="6" fill="#1a3a1a" stroke="#8cc882" stroke-width="2"/>
   <ellipse cx="177" cy="160" rx="14" ry="6" fill="#1a3a1a" stroke="#8cc882" stroke-width="2"/>
   <ellipse cx="177" cy="230" rx="14" ry="6" fill="#1a3a1a" stroke="#8cc882" stroke-width="2"/>
-  <!-- Internodes labels -->
-  <text x="195" y="130" font-size="9" fill="#8b949e">меж-</text>
-  <text x="195" y="141" font-size="9" fill="#8b949e">доузлие</text>
   <!-- Apical bud -->
   <ellipse cx="177" cy="50" rx="12" ry="18" fill="#2a3a1a" stroke="#e8c891" stroke-width="2"/>
-  <text x="177" y="32" text-anchor="middle" font-size="9" fill="#e8c891">верхушечная</text>
-  <text x="177" y="22" text-anchor="middle" font-size="9" fill="#e8c891">почка</text>
+  <text x="177" y="29" text-anchor="middle" font-size="11" fill="#e8c891">верхушечная</text>
+  <text x="177" y="20" text-anchor="middle" font-size="11" fill="#e8c891">почка</text>
   <!-- Axillary buds (пазушные почки) -->
   <ellipse cx="155" cy="90" rx="10" ry="7" fill="#1a2a0a" stroke="#8cc882" stroke-width="1.5"/>
   <ellipse cx="199" cy="90" rx="10" ry="7" fill="#1a2a0a" stroke="#8cc882" stroke-width="1.5"/>
@@ -29,14 +26,15 @@
   <line x1="155" y1="160" x2="143" y2="162" stroke="#8cc882" stroke-width="2"/>
   <line x1="199" y1="160" x2="211" y2="162" stroke="#8cc882" stroke-width="2"/>
   <!-- Labels left -->
-  <line x1="75" y1="90" x2="142" y2="90" stroke="#8b949e" stroke-width="0.8"/>
-  <text x="72" y="94" text-anchor="end" font-size="9" fill="#8cc882">узел</text>
-  <line x1="75" y1="105" x2="145" y2="92" stroke="#8b949e" stroke-width="0.8"/>
-  <text x="72" y="109" text-anchor="end" font-size="9" fill="#8cc882">пазушная почка</text>
-  <line x1="75" y1="120" x2="128" y2="100" stroke="#8b949e" stroke-width="0.8"/>
-  <text x="72" y="124" text-anchor="end" font-size="9" fill="#8cc882">лист</text>
-  <!-- Label: internode -->
-  <line x1="290" y1="125" x2="210" y2="125" stroke="#8b949e" stroke-width="0.8"/>
-  <text x="293" y="129" font-size="9" fill="#8b949e">междоузлие</text>
+  <line x1="80" y1="90" x2="142" y2="90" stroke="#8b949e" stroke-width="0.8"/>
+  <text x="78" y="88" text-anchor="end" font-size="11" fill="#8cc882">узел</text>
+  <line x1="80" y1="107" x2="145" y2="93" stroke="#8b949e" stroke-width="0.8"/>
+  <text x="78" y="112" text-anchor="end" font-size="11" fill="#8cc882">пазушная почка</text>
+  <line x1="80" y1="122" x2="128" y2="101" stroke="#8b949e" stroke-width="0.8"/>
+  <text x="78" y="126" text-anchor="end" font-size="11" fill="#8cc882">лист</text>
+  <!-- Label: internode right -->
+  <line x1="282" y1="125" x2="210" y2="125" stroke="#8b949e" stroke-width="0.8"/>
+  <text x="285" y="121" font-size="11" fill="#8b949e">между-</text>
+  <text x="285" y="134" font-size="11" fill="#8b949e">доузлие</text>
   <text x="180" y="285" text-anchor="middle" font-size="11" fill="#8b949e">Строение побега</text>
 </svg>

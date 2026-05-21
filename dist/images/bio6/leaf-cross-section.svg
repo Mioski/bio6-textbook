@@ -4,7 +4,7 @@
   <!-- Leaf cross-section block -->
   <!-- Upper epidermis -->
   <rect x="60" y="50" width="240" height="18" rx="4" fill="#1a2a1a" stroke="#8cc882" stroke-width="1.5"/>
-  <text x="175" y="63" text-anchor="middle" font-size="10" fill="#8cc882">Верхняя эпидерма</text>
+  <text x="180" y="63" text-anchor="middle" font-size="11" fill="#8cc882">Верхняя эпидерма</text>
 
   <!-- Palisade mesophyll -->
   <rect x="60" y="68" width="240" height="60" fill="#0f2a0f" stroke="#30363d" stroke-width="1"/>
@@ -19,7 +19,7 @@
     <rect x="202" y="72" width="18" height="50" rx="3"/>
     <rect x="224" y="72" width="18" height="50" rx="3"/>
     <rect x="246" y="72" width="18" height="50" rx="3"/>
-													  <rect x="268" y="72" width="18" height="50" rx="3"/>
+    <rect x="268" y="72" width="18" height="50" rx="3"/>
   </g>
   <!-- Chloroplast dots in palisade -->
   <g fill="#8cc882" opacity="0.6">
@@ -36,13 +36,13 @@
   </g>
 
   <!-- Vascular bundle (жилка) -->
-  <ellipse cx="175" cy="152" rx="25" ry="12" fill="#1e2a0e" stroke="#e8c891" stroke-width="1.5"/>
+  <ellipse cx="180" cy="152" rx="25" ry="12" fill="#1e2a0e" stroke="#e8c891" stroke-width="1.5"/>
   <!-- Xylem (top of bundle) -->
-  <ellipse cx="175" cy="147" rx="12" ry="6" fill="#1a1208" stroke="#e8a070" stroke-width="1"/>
-  <text x="175" y="150" text-anchor="middle" font-size="9" fill="#e8a070">кс</text>
+  <ellipse cx="180" cy="147" rx="12" ry="6" fill="#1a1208" stroke="#e8a070" stroke-width="1"/>
+  <text x="180" y="150" text-anchor="middle" font-size="11" fill="#e8a070">кс</text>
   <!-- Phloem (bottom of bundle) -->
-  <ellipse cx="175" cy="158" rx="10" ry="5" fill="#112211" stroke="#a8c5d8" stroke-width="1"/>
-  <text x="175" y="161" text-anchor="middle" font-size="9" fill="#a8c5d8">фл</text>
+  <ellipse cx="180" cy="158" rx="10" ry="5" fill="#112211" stroke="#a8c5d8" stroke-width="1"/>
+  <text x="180" y="161" text-anchor="middle" font-size="11" fill="#a8c5d8">фл</text>
 
   <!-- Spongy mesophyll -->
   <rect x="60" y="128" width="240" height="50" fill="#0a1e0a" stroke="#30363d" stroke-width="1"/>
@@ -60,39 +60,37 @@
     <ellipse cx="265" cy="162" rx="13" ry="9"/>
   </g>
   <!-- Air spaces (intercellular) -->
-  <text x="175" y="168" text-anchor="middle" font-size="9" fill="#8b949e">межклетники</text>
+  <text x="180" y="168" text-anchor="middle" font-size="11" fill="#8b949e">межклетники</text>
 
   <!-- Lower epidermis with stomata -->
   <rect x="60" y="178" width="240" height="18" rx="4" fill="#1a2a1a" stroke="#a8c5d8" stroke-width="1.5"/>
   <!-- Stomata openings -->
-  <g>
-    <ellipse cx="100" cy="187" rx="6" ry="3" fill="#0d1117" stroke="#a8c5d8" stroke-width="1"/>
-    <ellipse cx="175" cy="187" rx="6" ry="3" fill="#0d1117" stroke="#a8c5d8" stroke-width="1"/>
-    <ellipse cx="250" cy="187" rx="6" ry="3" fill="#0d1117" stroke="#a8c5d8" stroke-width="1"/>
-  </g>
-  <text x="175" y="191" text-anchor="middle" font-size="10" fill="#a8c5d8">Нижняя эпидерма (устьица)</text>
+  <ellipse cx="100" cy="187" rx="6" ry="3" fill="#0d1117" stroke="#a8c5d8" stroke-width="1"/>
+  <ellipse cx="180" cy="187" rx="6" ry="3" fill="#0d1117" stroke="#a8c5d8" stroke-width="1"/>
+  <ellipse cx="260" cy="187" rx="6" ry="3" fill="#0d1117" stroke="#a8c5d8" stroke-width="1"/>
+  <text x="180" y="191" text-anchor="middle" font-size="11" fill="#a8c5d8">Нижняя эпидерма (устьица)</text>
 
   <!-- Labels left -->
-  <line x1="60" y1="98"  x2="35" y2="98"  stroke="#8b949e" stroke-width="1"/>
-  <text x="32" y="96"  text-anchor="end" font-size="9" fill="#8cc882">пализадный</text>
-  <text x="32" y="107" text-anchor="end" font-size="9" fill="#8cc882">мезофилл</text>
+  <line x1="60" y1="98"  x2="38" y2="98"  stroke="#8b949e" stroke-width="1"/>
+  <text x="35" y="94"  text-anchor="end" font-size="11" fill="#8cc882">пали-</text>
+  <text x="35" y="107" text-anchor="end" font-size="11" fill="#8cc882">садный</text>
 
-  <line x1="60" y1="153" x2="35" y2="153" stroke="#8b949e" stroke-width="1"/>
-  <text x="32" y="151" text-anchor="end" font-size="9" fill="#e8c891">губчатый</text>
-  <text x="32" y="162" text-anchor="end" font-size="9" fill="#e8c891">мезофилл</text>
+  <line x1="60" y1="153" x2="38" y2="153" stroke="#8b949e" stroke-width="1"/>
+  <text x="35" y="149" text-anchor="end" font-size="11" fill="#e8c891">губчатый</text>
+  <text x="35" y="162" text-anchor="end" font-size="11" fill="#e8c891">мезофилл</text>
 
-  <!-- Vein label right -->
-  <line x1="200" y1="152" x2="310" y2="135" stroke="#e8c891" stroke-width="1"/>
-  <text x="312" y="133" font-size="9" fill="#e8c891">жилка</text>
-  <text x="312" y="144" font-size="9" fill="#8b949e">(кс + фл)</text>
+  <!-- Vein label right — moved to safe x position -->
+  <line x1="205" y1="152" x2="302" y2="135" stroke="#e8c891" stroke-width="1"/>
+  <text x="304" y="133" font-size="11" fill="#e8c891">жилка</text>
+  <text x="304" y="146" font-size="11" fill="#8b949e">(кс+фл)</text>
 
   <!-- Stomata label right -->
-  <line x1="258" y1="187" x2="310" y2="200" stroke="#a8c5d8" stroke-width="1"/>
-  <text x="312" y="198" font-size="9" fill="#a8c5d8">устьице</text>
+  <line x1="266" y1="187" x2="302" y2="200" stroke="#a8c5d8" stroke-width="1"/>
+  <text x="304" y="200" font-size="11" fill="#a8c5d8">устьице</text>
 
-  <text x="180" y="220" text-anchor="middle" font-size="11" fill="#8b949e">Поперечный срез листа</text>
+  <text x="180" y="222" text-anchor="middle" font-size="11" fill="#8b949e">Поперечный срез листа</text>
 
   <!-- Arrows CO2/O2 -->
-  <text x="25"  y="215" font-size="9" fill="#a8c5d8">CO₂ →</text>
-  <text x="305" y="215" font-size="9" fill="#8cc882">← O₂</text>
+  <text x="20"  y="215" font-size="11" fill="#a8c5d8">CO₂ →</text>
+  <text x="308" y="215" font-size="11" fill="#8cc882">← O₂</text>
 </svg>

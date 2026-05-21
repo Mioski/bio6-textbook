@@ -11,8 +11,8 @@
   <ellipse cx="160" cy="125" rx="10" ry="7" fill="#2a5a1a" stroke="#8cc882" stroke-width="1"/>
   <ellipse cx="185" cy="138" rx="10" ry="7" fill="#2a5a1a" stroke="#8cc882" stroke-width="1"/>
   <ellipse cx="170" cy="143" rx="10" ry="7" fill="#2a5a1a" stroke="#8cc882" stroke-width="1"/>
-  <text x="180" y="134" text-anchor="middle" font-size="10" fill="#8cc882" font-weight="600">хлоропласт</text>
-  <text x="180" y="147" text-anchor="middle" font-size="9" fill="#8cc882">хлорофилл</text>
+  <text x="180" y="134" text-anchor="middle" font-size="11" fill="#8cc882" font-weight="600">хлоропласт</text>
+  <text x="180" y="147" text-anchor="middle" font-size="11" fill="#8cc882">хлорофилл</text>
 
   <!-- Sun (energy source) -->
   <circle cx="180" cy="42" r="20" fill="#3a2a08" stroke="#e8c891" stroke-width="2"/>
@@ -25,40 +25,40 @@
   </g>
   <!-- Energy arrow to leaf -->
   <path d="M180,62 L180,88" stroke="#e8c891" stroke-width="2" marker-end="url(#ea)"/>
-  <text x="192" y="78" font-size="9" fill="#e8c891">свет</text>
+  <text x="192" y="78" font-size="11" fill="#e8c891">свет</text>
 
   <!-- CO2 input (left) -->
-  <rect x="10" y="105" width="90" height="50" rx="6" fill="#1a1208" stroke="#e8c891" stroke-width="1.5"/>
-  <text x="55" y="125" text-anchor="middle" font-size="11" fill="#e8c891" font-weight="700">6 CO₂</text>
-  <text x="55" y="140" text-anchor="middle" font-size="9" fill="#8b949e">углекислый газ</text>
-  <text x="55" y="152" text-anchor="middle" font-size="9" fill="#8b949e">из воздуха (устьица)</text>
-  <path d="M100,130 L115,130" stroke="#e8c891" stroke-width="2" marker-end="url(#ea)"/>
+  <rect x="8" y="105" width="95" height="52" rx="6" fill="#1a1208" stroke="#e8c891" stroke-width="1.5"/>
+  <text x="55" y="124" text-anchor="middle" font-size="11" fill="#e8c891" font-weight="700">6 CO₂</text>
+  <text x="55" y="138" text-anchor="middle" font-size="11" fill="#8b949e">углекислый газ</text>
+  <text x="55" y="151" text-anchor="middle" font-size="11" fill="#8b949e">из воздуха</text>
+  <path d="M103,130 L115,130" stroke="#e8c891" stroke-width="2" marker-end="url(#ea)"/>
 
   <!-- H2O input (left-bottom) -->
-  <rect x="10" y="165" width="90" height="50" rx="6" fill="#0a1a2a" stroke="#a8c5d8" stroke-width="1.5"/>
-  <text x="55" y="185" text-anchor="middle" font-size="11" fill="#a8c5d8" font-weight="700">6 H₂O</text>
-  <text x="55" y="200" text-anchor="middle" font-size="9" fill="#8b949e">вода</text>
-  <text x="55" y="212" text-anchor="middle" font-size="9" fill="#8b949e">из почвы (корни, ксилема)</text>
-  <path d="M100,175 L115,168" stroke="#a8c5d8" stroke-width="2" marker-end="url(#ea2)"/>
+  <rect x="8" y="165" width="95" height="52" rx="6" fill="#0a1a2a" stroke="#a8c5d8" stroke-width="1.5"/>
+  <text x="55" y="184" text-anchor="middle" font-size="11" fill="#a8c5d8" font-weight="700">6 H₂O</text>
+  <text x="55" y="198" text-anchor="middle" font-size="11" fill="#8b949e">вода</text>
+  <text x="55" y="211" text-anchor="middle" font-size="11" fill="#8b949e">из почвы</text>
+  <path d="M103,175 L115,168" stroke="#a8c5d8" stroke-width="2" marker-end="url(#ea2)"/>
 
   <!-- Glucose output (right) -->
-  <rect x="260" y="105" width="90" height="50" rx="6" fill="#0f2a0f" stroke="#8cc882" stroke-width="1.5"/>
-  <text x="305" y="125" text-anchor="middle" font-size="10" fill="#8cc882" font-weight="700">C₆H₁₂O₆</text>
-  <text x="305" y="140" text-anchor="middle" font-size="9" fill="#8b949e">глюкоза</text>
-  <text x="305" y="152" text-anchor="middle" font-size="9" fill="#8b949e">орг. вещество</text>
-  <path d="M245,130 L260,130" stroke="#8cc882" stroke-width="2" marker-end="url(#ea3)"/>
+  <rect x="257" y="105" width="95" height="52" rx="6" fill="#0f2a0f" stroke="#8cc882" stroke-width="1.5"/>
+  <text x="305" y="124" text-anchor="middle" font-size="11" fill="#8cc882" font-weight="700">C₆H₁₂O₆</text>
+  <text x="305" y="138" text-anchor="middle" font-size="11" fill="#8b949e">глюкоза</text>
+  <text x="305" y="151" text-anchor="middle" font-size="11" fill="#8b949e">орг. вещество</text>
+  <path d="M245,130 L257,130" stroke="#8cc882" stroke-width="2" marker-end="url(#ea3)"/>
 
   <!-- O2 output (right-bottom) -->
-  <rect x="260" y="165" width="90" height="50" rx="6" fill="#0a2a0a" stroke="#8cc882" stroke-width="1.5"/>
-  <text x="305" y="185" text-anchor="middle" font-size="11" fill="#8cc882" font-weight="700">6 O₂</text>
-  <text x="305" y="200" text-anchor="middle" font-size="9" fill="#8b949e">кислород</text>
-  <text x="305" y="212" text-anchor="middle" font-size="9" fill="#8b949e">через устьица</text>
-  <path d="M245,168 L260,175" stroke="#8cc882" stroke-width="2" marker-end="url(#ea3)"/>
+  <rect x="257" y="165" width="95" height="52" rx="6" fill="#0a2a0a" stroke="#8cc882" stroke-width="1.5"/>
+  <text x="305" y="184" text-anchor="middle" font-size="11" fill="#8cc882" font-weight="700">6 O₂</text>
+  <text x="305" y="198" text-anchor="middle" font-size="11" fill="#8b949e">кислород</text>
+  <text x="305" y="211" text-anchor="middle" font-size="11" fill="#8b949e">через устьица</text>
+  <path d="M245,168 L257,175" stroke="#8cc882" stroke-width="2" marker-end="url(#ea3)"/>
 
   <!-- Summary equation -->
-  <rect x="30" y="240" width="300" height="46" rx="8" fill="#111820" stroke="#e8c891" stroke-width="1.5"/>
-  <text x="180" y="258" text-anchor="middle" font-size="10" fill="#8b949e">6CO₂ + 6H₂O</text>
-  <text x="180" y="272" text-anchor="middle" font-size="10" fill="#e8c891" font-weight="600">───свет+хлорофилл──→ C₆H₁₂O₆ + 6O₂</text>
+  <rect x="20" y="232" width="320" height="48" rx="8" fill="#111820" stroke="#e8c891" stroke-width="1.5"/>
+  <text x="180" y="250" text-anchor="middle" font-size="11" fill="#8b949e">6CO₂ + 6H₂O</text>
+  <text x="180" y="270" text-anchor="middle" font-size="11" fill="#e8c891" font-weight="600">─свет+хлорофилл─→ C₆H₁₂O₆ + 6O₂</text>
 
   <defs>
     <marker id="ea" markerWidth="6" markerHeight="6" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6Z" fill="#e8c891"/></marker>

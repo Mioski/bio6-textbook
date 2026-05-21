@@ -3,98 +3,88 @@
   <text x="180" y="16" text-anchor="middle" font-size="12" fill="#e8c891" font-weight="600">Видоизменения корней</text>
 
   <!-- 1. Корнеплод (Root vegetable) - морковь -->
-  <rect x="5" y="26" width="105" height="135" rx="6" fill="#1a0f08" stroke="#e8a070" stroke-width="1.5"/>
-  <text x="57" y="42" text-anchor="middle" font-size="9" fill="#e8a070">Корнеплод</text>
+  <rect x="5" y="26" width="107" height="138" rx="6" fill="#1a0f08" stroke="#e8a070" stroke-width="1.5"/>
+  <text x="58" y="42" text-anchor="middle" font-size="11" fill="#e8a070">Корнеплод</text>
   <!-- Carrot shape -->
-  <path d="M57,50 L48,100 Q46,120 57,130 Q68,120 66,100 Z" fill="#2a1808" stroke="#e8a070" stroke-width="1.5"/>
+  <path d="M58,50 L49,100 Q47,120 58,130 Q69,120 67,100 Z" fill="#2a1808" stroke="#e8a070" stroke-width="1.5"/>
   <!-- Leaves at top -->
-  <path d="M53,50 Q45,35 38,28" stroke="#8cc882" stroke-width="1.5" fill="none"/>
-  <path d="M57,50 Q57,30 57,22" stroke="#8cc882" stroke-width="1.5" fill="none"/>
-  <path d="M61,50 Q69,35 76,28" stroke="#8cc882" stroke-width="1.5" fill="none"/>
+  <path d="M54,50 Q46,35 39,28" stroke="#8cc882" stroke-width="1.5" fill="none"/>
+  <path d="M58,50 Q58,30 58,22" stroke="#8cc882" stroke-width="1.5" fill="none"/>
+  <path d="M62,50 Q70,35 77,28" stroke="#8cc882" stroke-width="1.5" fill="none"/>
   <!-- Lateral roots -->
-  <line x1="50" y1="90"  x2="38" y2="98"  stroke="#e8a070" stroke-width="1"/>
-  <line x1="64" y1="100" x2="76" y2="108" stroke="#e8a070" stroke-width="1"/>
-  <text x="57" y="148" text-anchor="middle" font-size="9" fill="#8b949e">запас питат. веществ</text>
-  <text x="57" y="158" text-anchor="middle" font-size="9" fill="#8b949e">в главном корне</text>
-  <text x="57" y="150" text-anchor="middle" font-size="9" fill="#e8a070">морковь, свёкла</text>
+  <line x1="51" y1="90"  x2="39" y2="98"  stroke="#e8a070" stroke-width="1"/>
+  <line x1="65" y1="100" x2="77" y2="108" stroke="#e8a070" stroke-width="1"/>
+  <text x="58" y="148" text-anchor="middle" font-size="11" fill="#8b949e">запас веществ</text>
+  <text x="58" y="160" text-anchor="middle" font-size="11" fill="#e8a070">морковь, свёкла</text>
 
-  <!-- 2. Воздушные корни (Aerial roots) - орхидея -->
-  <rect x="127" y="26" width="105" height="135" rx="6" fill="#0a1a2a" stroke="#a8c5d8" stroke-width="1.5"/>
-  <text x="179" y="42" text-anchor="middle" font-size="9" fill="#a8c5d8">Воздушные корни</text>
+  <!-- 2. Воздушные корни -->
+  <rect x="126" y="26" width="107" height="138" rx="6" fill="#0a1a2a" stroke="#a8c5d8" stroke-width="1.5"/>
+  <text x="179" y="42" text-anchor="middle" font-size="11" fill="#a8c5d8">Воздушные корни</text>
   <!-- Branch -->
-  <path d="M140,60 L218,60" stroke="#8cc882" stroke-width="6" stroke-linecap="round"/>
+  <path d="M138,60 L218,60" stroke="#8cc882" stroke-width="6" stroke-linecap="round"/>
   <!-- Hanging aerial roots -->
   <g stroke="#a8c5d8" stroke-width="2.5" stroke-linecap="round" fill="none">
-    <path d="M155,60 Q152,90 150,130"/>
-    <path d="M170,60 Q168,90 170,140"/>
-    <path d="M185,60 Q187,95 188,138"/>
-    <path d="M200,60 Q205,90 207,130"/>
-  </g>
-  <!-- Velamen (silver layer) -->
-  <g stroke="#8b949e" stroke-width="1" fill="none" opacity="0.6">
-    <path d="M153,75 Q156,85 152,95"/>
-    <path d="M172,75 Q170,88 172,102"/>
-    <path d="M187,78 Q189,92 188,108"/>
-    <path d="M203,75 Q207,85 206,98"/>
+    <path d="M153,60 Q150,90 148,130"/>
+    <path d="M168,60 Q166,90 168,140"/>
+    <path d="M183,60 Q185,95 186,138"/>
+    <path d="M198,60 Q203,90 205,130"/>
   </g>
   <!-- Orchid on branch -->
   <ellipse cx="179" cy="48" rx="12" ry="8" fill="#1a3a1a" stroke="#8cc882" stroke-width="1"/>
-  <text x="179" y="150" text-anchor="middle" font-size="9" fill="#8b949e">поглощают влагу</text>
-  <text x="179" y="160" text-anchor="middle" font-size="9" fill="#8b949e">из воздуха</text>
-  <text x="179" y="152" text-anchor="middle" font-size="9" fill="#a8c5d8">орхидея, плющ, монстера</text>
+  <text x="179" y="148" text-anchor="middle" font-size="11" fill="#8b949e">поглощают влагу</text>
+  <text x="179" y="160" text-anchor="middle" font-size="11" fill="#a8c5d8">орхидея, плющ</text>
 
-  <!-- 3. Корни-подпорки (Stilt roots) - кукуруза -->
-  <rect x="249" y="26" width="105" height="135" rx="6" fill="#0a1a0a" stroke="#8cc882" stroke-width="1.5"/>
-  <text x="301" y="42" text-anchor="middle" font-size="9" fill="#8cc882">Ходульные корни</text>
+  <!-- 3. Ходульные корни -->
+  <rect x="247" y="26" width="107" height="138" rx="6" fill="#0a1a0a" stroke="#8cc882" stroke-width="1.5"/>
+  <text x="300" y="42" text-anchor="middle" font-size="11" fill="#8cc882">Ходульные корни</text>
   <!-- Stem -->
-  <line x1="301" y1="55" x2="301" y2="130" stroke="#8cc882" stroke-width="6"/>
+  <line x1="300" y1="55" x2="300" y2="130" stroke="#8cc882" stroke-width="6"/>
   <!-- Stilt prop roots -->
-  <line x1="301" y1="90"  x2="268" y2="130" stroke="#e8a070" stroke-width="2.5"/>
-  <line x1="301" y1="90"  x2="334" y2="130" stroke="#e8a070" stroke-width="2.5"/>
-  <line x1="301" y1="105" x2="274" y2="130" stroke="#e8a070" stroke-width="2"/>
-  <line x1="301" y1="105" x2="328" y2="130" stroke="#e8a070" stroke-width="2"/>
+  <line x1="300" y1="90"  x2="267" y2="130" stroke="#e8a070" stroke-width="2.5"/>
+  <line x1="300" y1="90"  x2="333" y2="130" stroke="#e8a070" stroke-width="2.5"/>
+  <line x1="300" y1="105" x2="273" y2="130" stroke="#e8a070" stroke-width="2"/>
+  <line x1="300" y1="105" x2="327" y2="130" stroke="#e8a070" stroke-width="2"/>
   <!-- Ground line -->
-  <line x1="255" y1="130" x2="345" y2="130" stroke="#3d2a10" stroke-width="1.5"/>
+  <line x1="253" y1="130" x2="347" y2="130" stroke="#3d2a10" stroke-width="1.5"/>
   <!-- Leaves -->
-  <path d="M301,55 Q275,42 258,38" stroke="#8cc882" stroke-width="4" fill="none" stroke-linecap="round"/>
-  <path d="M301,55 Q327,42 342,38" stroke="#8cc882" stroke-width="4" fill="none" stroke-linecap="round"/>
-  <text x="301" y="150" text-anchor="middle" font-size="9" fill="#8b949e">опора стебля</text>
-  <text x="301" y="160" text-anchor="middle" font-size="9" fill="#8cc882">кукуруза, баньян</text>
+  <path d="M300,55 Q274,42 257,38" stroke="#8cc882" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M300,55 Q326,42 343,38" stroke="#8cc882" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <text x="300" y="148" text-anchor="middle" font-size="11" fill="#8b949e">опора стебля</text>
+  <text x="300" y="160" text-anchor="middle" font-size="11" fill="#8cc882">кукуруза, баньян</text>
 
   <!-- Bottom row: 2 more modifications -->
   <!-- 4. Микориза -->
-  <rect x="5" y="170" width="160" height="115" rx="6" fill="#1a0a1a" stroke="#a8c5d8" stroke-width="1.5"/>
-  <text x="85" y="187" text-anchor="middle" font-size="9" fill="#a8c5d8">Микориза</text>
+  <rect x="5" y="172" width="160" height="115" rx="6" fill="#1a0a1a" stroke="#a8c5d8" stroke-width="1.5"/>
+  <text x="85" y="188" text-anchor="middle" font-size="11" fill="#a8c5d8">Микориза</text>
   <!-- Root with fungal hyphae -->
-  <path d="M85,200 L85,250" stroke="#e8a070" stroke-width="5" stroke-linecap="round"/>
+  <path d="M85,202 L85,252" stroke="#e8a070" stroke-width="5" stroke-linecap="round"/>
   <g stroke="#a8c5d8" stroke-width="1" fill="none" opacity="0.8">
-    <path d="M85,210 Q65,205 45,215 Q30,225 40,240"/>
-    <path d="M85,220 Q105,215 120,225 Q135,238 125,252"/>
-    <path d="M85,235 Q70,228 55,240 Q42,250 48,265"/>
-    <path d="M85,240 Q100,233 115,242 Q128,255 122,268"/>
+    <path d="M85,212 Q65,207 45,217 Q30,227 40,242"/>
+    <path d="M85,222 Q105,217 120,227 Q135,240 125,254"/>
+    <path d="M85,237 Q70,230 55,242 Q42,252 48,267"/>
   </g>
-  <text x="85" y="268" text-anchor="middle" font-size="9" fill="#8b949e">гриб ↔ корень: симбиоз</text>
-  <text x="85" y="278" text-anchor="middle" font-size="9" fill="#8b949e">гриб даёт минер. соли</text>
+  <text x="85" y="268" text-anchor="middle" font-size="11" fill="#8b949e">гриб ↔ корень</text>
+  <text x="85" y="281" text-anchor="middle" font-size="11" fill="#8b949e">симбиоз</text>
 
-  <!-- 5. Дыхательные корни (Pneumatophores) -->
-  <rect x="190" y="170" width="165" height="115" rx="6" fill="#0a1a1a" stroke="#8cc882" stroke-width="1.5"/>
-  <text x="272" y="187" text-anchor="middle" font-size="9" fill="#8cc882">Дыхательные корни</text>
+  <!-- 5. Дыхательные корни -->
+  <rect x="190" y="172" width="165" height="115" rx="6" fill="#0a1a1a" stroke="#8cc882" stroke-width="1.5"/>
+  <text x="272" y="188" text-anchor="middle" font-size="11" fill="#8cc882">Дыхательные корни</text>
   <!-- Water level -->
-  <line x1="200" y1="235" x2="350" y2="235" stroke="#a8c5d8" stroke-width="1.5" stroke-dasharray="4,3"/>
-  <text x="348" y="239" font-size="9" fill="#a8c5d8">H₂O</text>
+  <line x1="200" y1="237" x2="350" y2="237" stroke="#a8c5d8" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="346" y="233" font-size="11" fill="#a8c5d8">H₂O</text>
   <!-- Roots pointing up through water surface -->
-  <path d="M230,275 L230,220" stroke="#e8a070" stroke-width="3" stroke-linecap="round"/>
-  <path d="M255,275 L255,212" stroke="#e8a070" stroke-width="3" stroke-linecap="round"/>
-  <path d="M280,275 L280,218" stroke="#e8a070" stroke-width="3" stroke-linecap="round"/>
-  <path d="M305,275 L305,208" stroke="#e8a070" stroke-width="3" stroke-linecap="round"/>
-  <path d="M330,275 L330,215" stroke="#e8a070" stroke-width="3" stroke-linecap="round"/>
+  <path d="M225,277 L225,222" stroke="#e8a070" stroke-width="3" stroke-linecap="round"/>
+  <path d="M250,277 L250,214" stroke="#e8a070" stroke-width="3" stroke-linecap="round"/>
+  <path d="M275,277 L275,220" stroke="#e8a070" stroke-width="3" stroke-linecap="round"/>
+  <path d="M300,277 L300,210" stroke="#e8a070" stroke-width="3" stroke-linecap="round"/>
+  <path d="M325,277 L325,217" stroke="#e8a070" stroke-width="3" stroke-linecap="round"/>
   <!-- Air pores at tips -->
-  <circle cx="230" cy="218" r="5" fill="#0d1117" stroke="#8cc882" stroke-width="1.5"/>
-  <circle cx="255" cy="210" r="5" fill="#0d1117" stroke="#8cc882" stroke-width="1.5"/>
-  <circle cx="280" cy="216" r="5" fill="#0d1117" stroke="#8cc882" stroke-width="1.5"/>
-  <circle cx="305" cy="206" r="5" fill="#0d1117" stroke="#8cc882" stroke-width="1.5"/>
-  <circle cx="330" cy="213" r="5" fill="#0d1117" stroke="#8cc882" stroke-width="1.5"/>
-  <text x="272" y="268" text-anchor="middle" font-size="9" fill="#8b949e">выходят из воды вверх</text>
-  <text x="272" y="278" text-anchor="middle" font-size="9" fill="#8cc882">мангровые деревья</text>
+  <circle cx="225" cy="220" r="5" fill="#0d1117" stroke="#8cc882" stroke-width="1.5"/>
+  <circle cx="250" cy="212" r="5" fill="#0d1117" stroke="#8cc882" stroke-width="1.5"/>
+  <circle cx="275" cy="218" r="5" fill="#0d1117" stroke="#8cc882" stroke-width="1.5"/>
+  <circle cx="300" cy="208" r="5" fill="#0d1117" stroke="#8cc882" stroke-width="1.5"/>
+  <circle cx="325" cy="215" r="5" fill="#0d1117" stroke="#8cc882" stroke-width="1.5"/>
+  <text x="272" y="268" text-anchor="middle" font-size="11" fill="#8b949e">выходят из воды вверх</text>
+  <text x="272" y="281" text-anchor="middle" font-size="11" fill="#8cc882">мангровые деревья</text>
   <text x="180" y="297" text-anchor="middle" font-size="11" fill="#8b949e">Видоизменения корней</text>
 </svg>

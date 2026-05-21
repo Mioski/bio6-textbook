@@ -46,28 +46,28 @@
 
   <!-- Labels -->
   <!-- Ascending -->
-  <rect x="10" y="160" width="120" height="40" rx="5" fill="#1a1208" stroke="#e8a070" stroke-width="1"/>
-  <text x="70" y="177" text-anchor="middle" font-size="10" fill="#e8a070" font-weight="600">Восходящий ток ↑</text>
-  <text x="70" y="191" text-anchor="middle" font-size="9"  fill="#8b949e">H₂O + минер. соли</text>
-  <line x1="130" y1="180" x2="168" y2="180" stroke="#e8a070" stroke-width="1" stroke-dasharray="3,2"/>
+  <rect x="8" y="158" width="125" height="44" rx="5" fill="#1a1208" stroke="#e8a070" stroke-width="1"/>
+  <text x="70" y="175" text-anchor="middle" font-size="11" fill="#e8a070" font-weight="600">Восходящий ток ↑</text>
+  <text x="70" y="191" text-anchor="middle" font-size="11" fill="#8b949e">H₂O + мин. соли</text>
+  <line x1="133" y1="180" x2="168" y2="180" stroke="#e8a070" stroke-width="1" stroke-dasharray="3,2"/>
 
   <!-- Descending -->
-  <rect x="230" y="160" width="120" height="40" rx="5" fill="#112211" stroke="#a8c5d8" stroke-width="1"/>
-  <text x="290" y="177" text-anchor="middle" font-size="10" fill="#a8c5d8" font-weight="600">Нисходящий ток ↓</text>
-  <text x="290" y="191" text-anchor="middle" font-size="9"  fill="#8b949e">органика (сахара)</text>
-  <line x1="192" y1="180" x2="230" y2="180" stroke="#a8c5d8" stroke-width="1" stroke-dasharray="3,2"/>
+  <rect x="227" y="158" width="125" height="44" rx="5" fill="#112211" stroke="#a8c5d8" stroke-width="1"/>
+  <text x="289" y="175" text-anchor="middle" font-size="11" fill="#a8c5d8" font-weight="600">Нисходящий ток ↓</text>
+  <text x="289" y="191" text-anchor="middle" font-size="11" fill="#8b949e">органика (сахара)</text>
+  <line x1="192" y1="180" x2="227" y2="180" stroke="#a8c5d8" stroke-width="1" stroke-dasharray="3,2"/>
 
   <!-- Root absorption -->
-  <text x="50"  y="300" font-size="9" fill="#8b949e">почва: H₂O+соли</text>
-  <line x1="115" y1="297" x2="155" y2="285" stroke="#e8a070" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="48"  y="298" font-size="11" fill="#8b949e">почва: H₂O+соли</text>
+  <line x1="112" y1="296" x2="155" y2="285" stroke="#e8a070" stroke-width="1" stroke-dasharray="3,2"/>
 
   <!-- Leaf transpiration -->
-  <text x="270" y="50" font-size="9" fill="#8b949e">транспирация</text>
-  <line x1="268" y1="53" x2="250" y2="52" stroke="#a8c5d8" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="256" y="50" font-size="11" fill="#8b949e">транспирация</text>
+  <line x1="254" y1="53" x2="250" y2="52" stroke="#a8c5d8" stroke-width="1" stroke-dasharray="3,2"/>
 
   <!-- Xylem / Phloem tags -->
-  <text x="155" y="145" text-anchor="end" font-size="9" fill="#e8a070">ксилема</text>
-  <text x="205" y="145" font-size="9" fill="#a8c5d8">флоэма</text>
+  <text x="155" y="145" text-anchor="end" font-size="11" fill="#e8a070">ксилема</text>
+  <text x="203" y="145" font-size="11" fill="#a8c5d8">флоэма</text>
 
   <defs>
     <marker id="up_arr" markerWidth="6" markerHeight="6" refX="3" refY="6" orient="auto">
@@ -78,5 +78,5 @@
     </marker>
   </defs>
 
-  <text x="180" y="315" text-anchor="middle" font-size="11" fill="#8b949e">Транспорт веществ в растении</text>
+  <text x="180" y="315" text-anchor="middle" font-size="11" fill="#8b949e" textLength="340" lengthAdjust="spacing">Транспорт веществ в растении</text>
 </svg>

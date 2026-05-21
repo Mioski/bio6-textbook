@@ -12,40 +12,40 @@
   <path d="M180,110 L240,150" stroke="#1a4a1a" stroke-width="1.5"/>
 
   <!-- Sun -->
-  <circle cx="50" cy="45" r="25" fill="#3d3520" stroke="#e8c891" stroke-width="2"/>
-  <text x="50" y="42" text-anchor="middle" font-size="16" fill="#e8c891">☀</text>
-  <text x="50" y="56" text-anchor="middle" font-size="9"  fill="#e8c891">свет</text>
+  <circle cx="48" cy="45" r="24" fill="#3d3520" stroke="#e8c891" stroke-width="2"/>
+  <text x="48" y="42" text-anchor="middle" font-size="16" fill="#e8c891">☀</text>
+  <text x="48" y="57" text-anchor="middle" font-size="11" fill="#e8c891">свет</text>
   <!-- Light rays to leaf -->
-  <line x1="72" y1="55" x2="140" y2="90" stroke="#e8c891" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.7"/>
-  <line x1="75" y1="45" x2="145" y2="70" stroke="#e8c891" stroke-width="1" stroke-dasharray="5,3" opacity="0.5"/>
+  <line x1="70" y1="55" x2="140" y2="90" stroke="#e8c891" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.7"/>
+  <line x1="73" y1="45" x2="143" y2="70" stroke="#e8c891" stroke-width="1" stroke-dasharray="5,3" opacity="0.5"/>
 
   <!-- CO2 input -->
-  <text x="30" y="170" font-size="13" fill="#a8c5d8" font-weight="600">CO₂</text>
-  <line x1="75" y1="168" x2="110" y2="155" stroke="#a8c5d8" stroke-width="1.5" marker-end="url(#arr)"/>
-  <text x="28" y="183" font-size="9" fill="#8b949e">из воздуха</text>
+  <text x="24" y="170" font-size="13" fill="#a8c5d8" font-weight="600">CO₂</text>
+  <line x1="64" y1="168" x2="108" y2="155" stroke="#a8c5d8" stroke-width="1.5" marker-end="url(#arr)"/>
+  <text x="22" y="183" font-size="11" fill="#8b949e">из воздуха</text>
 
   <!-- H2O input -->
-  <text x="28" y="210" font-size="13" fill="#a8c5d8" font-weight="600">H₂O</text>
-  <line x1="75" y1="207" x2="125" y2="195" stroke="#a8c5d8" stroke-width="1.5" marker-end="url(#arr)"/>
-  <text x="25" y="223" font-size="9" fill="#8b949e">из почвы</text>
+  <text x="22" y="210" font-size="13" fill="#a8c5d8" font-weight="600">H₂O</text>
+  <line x1="64" y1="207" x2="123" y2="195" stroke="#a8c5d8" stroke-width="1.5" marker-end="url(#arr)"/>
+  <text x="18" y="223" font-size="11" fill="#8b949e">из почвы</text>
 
   <!-- O2 output -->
-  <text x="295" y="115" font-size="13" fill="#8cc882" font-weight="600">O₂</text>
-  <line x1="253" y1="115" x2="290" y2="112" stroke="#8cc882" stroke-width="1.5" marker-end="url(#arr2)"/>
-  <text x="290" y="128" font-size="9" fill="#8b949e">в воздух</text>
+  <text x="292" y="115" font-size="13" fill="#8cc882" font-weight="600">O₂</text>
+  <line x1="252" y1="115" x2="289" y2="112" stroke="#8cc882" stroke-width="1.5" marker-end="url(#arr2)"/>
+  <text x="290" y="128" font-size="11" fill="#8b949e">в воздух</text>
 
   <!-- Glucose output -->
-  <text x="292" y="165" font-size="10" fill="#e8c891" font-weight="600">глюкоза</text>
+  <text x="290" y="165" font-size="11" fill="#e8c891" font-weight="600">глюкоза</text>
   <line x1="250" y1="158" x2="288" y2="158" stroke="#e8c891" stroke-width="1.5" marker-end="url(#arr3)"/>
-  <text x="290" y="177" font-size="9" fill="#8b949e">органика</text>
+  <text x="290" y="178" font-size="11" fill="#8b949e">органика</text>
 
   <!-- Central formula -->
-  <rect x="115" y="118" width="130" height="36" rx="6" fill="#0d1a0d" stroke="#8cc882" stroke-width="1" opacity="0.9"/>
-  <text x="180" y="133" text-anchor="middle" font-size="9" fill="#8b949e">6CO₂ + 6H₂O + свет</text>
-  <text x="180" y="147" text-anchor="middle" font-size="9" fill="#8cc882">→ C₆H₁₂O₆ + 6O₂</text>
+  <rect x="112" y="118" width="136" height="36" rx="6" fill="#0d1a0d" stroke="#8cc882" stroke-width="1" opacity="0.9"/>
+  <text x="180" y="133" text-anchor="middle" font-size="11" fill="#8b949e">6CO₂+6H₂O+свет</text>
+  <text x="180" y="147" text-anchor="middle" font-size="11" fill="#8cc882">→ C₆H₁₂O₆+6O₂</text>
 
   <!-- Chloroplast label -->
-  <text x="180" y="200" text-anchor="middle" font-size="10" fill="#8cc882">хлоропласт</text>
+  <text x="180" y="202" text-anchor="middle" font-size="11" fill="#8cc882">хлоропласт</text>
 
   <!-- Arrowhead defs -->
   <defs>
